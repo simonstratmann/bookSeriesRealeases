@@ -1,12 +1,7 @@
 package de.sist.bookseries.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Book {
 
     private String series;
@@ -17,6 +12,9 @@ public class Book {
     private double rating;
     private int ratings;
 
+    public Book() {
+    }
+
 
     public Book(String series, int number, String title, String url, double rating, int ratings) {
         this.number = number;
@@ -24,6 +22,35 @@ public class Book {
         this.url = url;
         this.rating = rating;
         this.ratings = ratings;
+    }
+
+
+    public String getSeries() {
+        return series;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public Publication getPublication() {
+        return publication;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public int getRatings() {
+        return ratings;
     }
 
     public void update(Book book) {
@@ -35,5 +62,16 @@ public class Book {
         }
         rating = book.rating;
         ratings = book.ratings;
+    }
+
+    public void setPublication(Publication publication) {
+        this.publication = publication;
+    }
+
+    @Override
+    public String toString() {
+
+        return String.format("Series: %s. Title: %s. Book number: %s. Publication: %s. Rating: %.2f (%d ratings)", series, title, number, publication, rating, ratings);
+
     }
 }

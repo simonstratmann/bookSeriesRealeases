@@ -12,10 +12,8 @@ import org.jsoup.select.Evaluator;
 import picocli.CommandLine;
 
 import java.io.IOException;
-import java.nio.file.Files;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -24,7 +22,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-@CommandLine.Command(name = "updateSeries", description = "Updates all series data")
+@CommandLine.Command(name = "update", description = "Updates series data", aliases = {"u"})
 @SuppressWarnings("ConstantConditions")
 public class UpdateSeriesCommand implements Callable<Integer> {
 
@@ -36,7 +34,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
     public Integer call() throws Exception {
         try {
             final List<BookSeries> bookSeriesList = Jackson.load();
-            Jackson.backup();
+
             update(bookSeriesList);
             Jackson.write(bookSeriesList);
         } catch (Exception e) {
@@ -44,6 +42,10 @@ public class UpdateSeriesCommand implements Callable<Integer> {
             return 1;
         }
         return 0;
+    }
+
+    public static void updateSeries(BookSeries series) throws Exception {
+        update(Collections.singletonList(series));
     }
 
 
@@ -57,38 +59,21 @@ public class UpdateSeriesCommand implements Callable<Integer> {
             for (BookSeries series : bookSeriesList) {
                 System.out.println("Updating series " + series.getTitle() + " by " + series.getAuthor());
                 updateBooksForSeries(series);
-
-                for (Book book : series.getBooks()) {
-                    if (book.getPublication() == null || book.getPublication().notYetPublished() || book.getPublication().getPublicationDate() == null) {
-                        System.out.printf("Updating publication date for %s (%d)%n", book.getTitle(), book.getNumber());
-                        final Document doc = Jsoup.connect(book.getUrl()).get();
-                        final Element publicationElement = doc.selectFirst("#details > div:nth-child(2)");
-                        if (publicationElement == null) {
-                            System.out.println("No publication data found");
-                            continue;
-                        }
-                        final String publishedDateString = publicationElement.text();
-                        final Publication publication = parsePublication(publishedDateString);
-                        System.out.println("Determined publication " + publication);
-                        book.setPublication(publication);
-                    }
-                }
             }
 
         } catch (Exception e) {
             throw new RuntimeException(e);
-        } finally {
-            try {
-                Jackson.write(bookSeriesList);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
+        }
+        try {
+            Jackson.write(bookSeriesList);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 
     private static void updateBooksForSeries(BookSeries series) throws IOException {
-        final Document doc = Jsoup.connect(series.getGoodReadsUrl()).get();
-        for (Element book : doc.select(".responsiveBook")) {
+        final Document seriesDoc = Jsoup.connect(series.getGoodReadsUrl()).get();
+        for (Element book : seriesDoc.select(".responsiveBook")) {
             try {
                 final Element bookNumberElement = book.previousElementSibling();
                 if (bookNumberElement == null) {
@@ -138,6 +123,21 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                 e.printStackTrace();
             }
         }
+        for (Book book : series.getBooks()) {
+            if (book.getPublication() == null || book.getPublication().notYetPublished() || book.getPublication().getPublicationDate() == null) {
+                System.out.printf("Updating publication date for %s (%d)%n", book.getTitle(), book.getNumber());
+                final Document bookDoc = Jsoup.connect(book.getUrl()).get();
+                final Element publicationElement = bookDoc.selectFirst("#details > div:nth-child(2)");
+                if (publicationElement == null) {
+                    System.out.println("No publication data found");
+                    continue;
+                }
+                final String publishedDateString = publicationElement.text();
+                final Publication publication = parsePublication(publishedDateString);
+                System.out.println("Determined publication " + publication);
+                book.setPublication(publication);
+            }
+        }
     }
 
     private static Publication parsePublication(String input) {
@@ -164,32 +164,4 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         }
     }
 
-    private static List<BookSeries> createInitialBookSeriesListFromListOfUrls(String... seriesUrl) {
-        final List<BookSeries> bookSeriesList = new ArrayList<>();
-
-        for (String url : seriesUrl) {
-            try {
-                final Document doc = Jsoup.connect(url).get();
-                final Element seriesHeaderElement = doc.selectFirst(".responsiveSeriesHeader .gr-h1");
-                final String seriesHeader = seriesHeaderElement.text();
-                final Matcher matcher = Pattern.compile("(.+) by (.+)").matcher(seriesHeader);
-                final String seriesAuthor;
-                final String seriesTitle;
-                if (matcher.matches()) {
-                    seriesTitle = matcher.group(1);
-                    seriesAuthor = matcher.group(2);
-                } else {
-                    seriesTitle = seriesHeader;
-                    seriesAuthor = doc.selectFirst(new Evaluator.AttributeWithValue("itemprop", "author")).selectFirst(new Evaluator.AttributeWithValue("itemprop", "name")).text();
-                }
-                System.out.println(seriesAuthor + " - " + seriesTitle);
-                bookSeriesList.add(new BookSeries(seriesTitle, seriesAuthor, url, Collections.emptyList()));
-                Thread.sleep(500);
-            } catch (Exception e) {
-                System.out.println(url);
-                e.printStackTrace();
-            }
-        }
-        return bookSeriesList;
-    }
 }

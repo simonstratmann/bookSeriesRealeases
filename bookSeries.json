@@ -5,6 +5,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/117100-red-rising-saga",
     "books": [
       {
+        "series": "Red Rising Saga",
         "number": 1,
         "title": "Red Rising",
         "publication": {
@@ -20,6 +21,7 @@
         "ratings": 306857
       },
       {
+        "series": "Red Rising Saga",
         "number": 2,
         "title": "Golden Son",
         "publication": {
@@ -35,6 +37,7 @@
         "ratings": 182867
       },
       {
+        "series": "Red Rising Saga",
         "number": 3,
         "title": "Morning Star",
         "publication": {
@@ -50,6 +53,7 @@
         "ratings": 152283
       },
       {
+        "series": "Red Rising Saga",
         "number": 4,
         "title": "Iron Gold",
         "publication": {
@@ -65,6 +69,7 @@
         "ratings": 60229
       },
       {
+        "series": "Red Rising Saga",
         "number": 5,
         "title": "Dark Age",
         "publication": {
@@ -80,6 +85,7 @@
         "ratings": 35564
       },
       {
+        "series": "Red Rising Saga",
         "number": 6,
         "title": "Light Bringer",
         "publication": {
@@ -95,6 +101,7 @@
         "ratings": 152
       },
       {
+        "series": "Red Rising Saga",
         "number": 7,
         "title": "Red God",
         "publication": null,
@@ -110,6 +117,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/229503-the-locked-tomb",
     "books": [
       {
+        "series": "The Locked Tomb Series",
         "number": 1,
         "title": "Gideon the Ninth",
         "publication": {
@@ -125,6 +133,7 @@
         "ratings": 76660
       },
       {
+        "series": "The Locked Tomb Series",
         "number": 2,
         "title": "Harrow the Ninth",
         "publication": {
@@ -140,6 +149,7 @@
         "ratings": 35453
       },
       {
+        "series": "The Locked Tomb Series",
         "number": 3,
         "title": "Nona the Ninth",
         "publication": {
@@ -155,6 +165,7 @@
         "ratings": 214
       },
       {
+        "series": "The Locked Tomb Series",
         "number": 4,
         "title": "Alecto the Ninth",
         "publication": {
@@ -177,6 +188,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/192821-cradle",
     "books": [
       {
+        "series": "Cradle Series",
         "number": 1,
         "title": "Unsouled",
         "publication": {
@@ -192,6 +204,7 @@
         "ratings": 28748
       },
       {
+        "series": "Cradle Series",
         "number": 2,
         "title": "Soulsmith",
         "publication": {
@@ -207,6 +220,7 @@
         "ratings": 21058
       },
       {
+        "series": "Cradle Series",
         "number": 3,
         "title": "Blackflame",
         "publication": {
@@ -222,6 +236,7 @@
         "ratings": 19240
       },
       {
+        "series": "Cradle Series",
         "number": 4,
         "title": "Skysworn",
         "publication": {
@@ -237,6 +252,7 @@
         "ratings": 18091
       },
       {
+        "series": "Cradle Series",
         "number": 5,
         "title": "Ghostwater",
         "publication": {
@@ -252,6 +268,7 @@
         "ratings": 17580
       },
       {
+        "series": "Cradle Series",
         "number": 6,
         "title": "Underlord",
         "publication": {
@@ -267,6 +284,7 @@
         "ratings": 17220
       },
       {
+        "series": "Cradle Series",
         "number": 7,
         "title": "Uncrowned",
         "publication": {
@@ -282,6 +300,7 @@
         "ratings": 16416
       },
       {
+        "series": "Cradle Series",
         "number": 8,
         "title": "Wintersteel",
         "publication": {
@@ -297,6 +316,7 @@
         "ratings": 15478
       },
       {
+        "series": "Cradle Series",
         "number": 9,
         "title": "Bloodline",
         "publication": {
@@ -312,6 +332,7 @@
         "ratings": 13562
       },
       {
+        "series": "Cradle Series",
         "number": 10,
         "title": "Reaper",
         "publication": {
@@ -327,6 +348,7 @@
         "ratings": 12504
       },
       {
+        "series": "Cradle Series",
         "number": 11,
         "title": "Dreadgod",
         "publication": {
@@ -342,6 +364,7 @@
         "ratings": 7405
       },
       {
+        "series": "Cradle Series",
         "number": 12,
         "title": "Waybound",
         "publication": null,
@@ -357,6 +380,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/247635-skyward",
     "books": [
       {
+        "series": "Skyward Series",
         "number": 1,
         "title": "Skyward",
         "publication": {
@@ -372,6 +396,7 @@
         "ratings": 104978
       },
       {
+        "series": "Skyward Series",
         "number": 2,
         "title": "Starsight",
         "publication": {
@@ -387,6 +412,7 @@
         "ratings": 65602
       },
       {
+        "series": "Skyward Series",
         "number": 3,
         "title": "Cytonic",
         "publication": {
@@ -402,6 +428,7 @@
         "ratings": 25765
       },
       {
+        "series": "Skyward Series",
         "number": 4,
         "title": "Defiant",
         "publication": {
@@ -424,6 +451,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/255488-the-grave-of-empires",
     "books": [
       {
+        "series": "The Grave of Empires Series",
         "number": 1,
         "title": "Seven Blades in Black",
         "publication": {
@@ -439,6 +467,7 @@
         "ratings": 4512
       },
       {
+        "series": "The Grave of Empires Series",
         "number": 2,
         "title": "Ten Arrows of Iron",
         "publication": {
@@ -461,6 +490,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/237838-the-reborn-empire",
     "books": [
       {
+        "series": "The Reborn Empire Series",
         "number": 1,
         "title": "We Ride the Storm",
         "publication": {
@@ -476,6 +506,7 @@
         "ratings": 1376
       },
       {
+        "series": "The Reborn Empire Series",
         "number": 2,
         "title": "We Lie With Death",
         "publication": {
@@ -491,6 +522,7 @@
         "ratings": 399
       },
       {
+        "series": "The Reborn Empire Series",
         "number": 3,
         "title": "We Cry for Blood",
         "publication": {
@@ -513,6 +545,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/250573-the-burning",
     "books": [
       {
+        "series": "The Burning Series",
         "number": 1,
         "title": "The Rage of Dragons",
         "publication": {
@@ -528,6 +561,7 @@
         "ratings": 24647
       },
       {
+        "series": "The Burning Series",
         "number": 2,
         "title": "The Fires of Vengeance",
         "publication": {
@@ -543,6 +577,7 @@
         "ratings": 9662
       },
       {
+        "series": "The Burning Series",
         "number": 3,
         "title": "The Lord of Demons",
         "publication": null,
@@ -551,6 +586,7 @@
         "ratings": 31
       },
       {
+        "series": "The Burning Series",
         "number": 4,
         "title": "Untitled",
         "publication": null,
@@ -566,6 +602,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/302625-warformed-stormweaver",
     "books": [
       {
+        "series": "Warformed: Stormweaver Series",
         "number": 1,
         "title": "Iron Prince",
         "publication": {
@@ -588,6 +625,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/266277-between-earth-and-sky",
     "books": [
       {
+        "series": "Between Earth and Sky Series",
         "number": 1,
         "title": "Black Sun",
         "publication": {
@@ -603,6 +641,7 @@
         "ratings": 29912
       },
       {
+        "series": "Between Earth and Sky Series",
         "number": 2,
         "title": "Fevered Star",
         "publication": {
@@ -618,6 +657,7 @@
         "ratings": 5826
       },
       {
+        "series": "Between Earth and Sky Series",
         "number": 3,
         "title": "Untitled",
         "publication": null,
@@ -633,6 +673,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/273156-bloodsworn-saga",
     "books": [
       {
+        "series": "Bloodsworn Saga",
         "number": 1,
         "title": "The Shadow of the Gods",
         "publication": {
@@ -648,6 +689,7 @@
         "ratings": 14293
       },
       {
+        "series": "Bloodsworn Saga",
         "number": 2,
         "title": "The Hunger of the Gods",
         "publication": {
@@ -663,6 +705,7 @@
         "ratings": 4647
       },
       {
+        "series": "Bloodsworn Saga",
         "number": 3,
         "title": "Untitled",
         "publication": null,
@@ -678,6 +721,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/305076-the-final-architecture",
     "books": [
       {
+        "series": "The Final Architecture Series",
         "number": 1,
         "title": "Shards of Earth",
         "publication": {
@@ -693,6 +737,7 @@
         "ratings": 10234
       },
       {
+        "series": "The Final Architecture Series",
         "number": 2,
         "title": "Eyes of the Void",
         "publication": {
@@ -715,6 +760,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/311116-blacktongue",
     "books": [
       {
+        "series": "Blacktongue Series",
         "number": 1,
         "title": "The Blacktongue Thief",
         "publication": {
@@ -737,6 +783,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/156786-the-wakening",
     "books": [
       {
+        "series": "The Wakening Series",
         "number": 1,
         "title": "Dawn of Wonder",
         "publication": {
@@ -752,6 +799,7 @@
         "ratings": 24043
       },
       {
+        "series": "The Wakening Series",
         "number": 2,
         "title": "Untitled",
         "publication": null,
@@ -760,6 +808,7 @@
         "ratings": 43
       },
       {
+        "series": "The Wakening Series",
         "number": 3,
         "title": "Untitled",
         "publication": null,
@@ -775,6 +824,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/258685-the-tide-child",
     "books": [
       {
+        "series": "The Tide Child Series",
         "number": 1,
         "title": "The Bone Ships",
         "publication": {
@@ -790,6 +840,7 @@
         "ratings": 4806
       },
       {
+        "series": "The Tide Child Series",
         "number": 2,
         "title": "Call of the Bone Ships",
         "publication": {
@@ -805,6 +856,7 @@
         "ratings": 2045
       },
       {
+        "series": "The Tide Child Series",
         "number": 3,
         "title": "The Bone Ship's Wake",
         "publication": {
@@ -827,6 +879,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/287237-rook-rose",
     "books": [
       {
+        "series": "Rook & Rose Series",
         "number": 1,
         "title": "The Mask of Mirrors",
         "publication": {
@@ -842,6 +895,7 @@
         "ratings": 4168
       },
       {
+        "series": "Rook & Rose Series",
         "number": 2,
         "title": "The Liar’s Knot",
         "publication": {
@@ -857,6 +911,7 @@
         "ratings": 1551
       },
       {
+        "series": "Rook & Rose Series",
         "number": 3,
         "title": "Labyrinth's Heart",
         "publication": null,
@@ -872,6 +927,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/304073-bethel",
     "books": [
       {
+        "series": "Bethel Series",
         "number": 1,
         "title": "The Year of the Witching",
         "publication": {
@@ -894,6 +950,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/254488-empire-of-the-vampire",
     "books": [
       {
+        "series": "Empire of the Vampire Series",
         "number": 1,
         "title": "Empire of the Vampire",
         "publication": {
@@ -909,6 +966,7 @@
         "ratings": 21831
       },
       {
+        "series": "Empire of the Vampire Series",
         "number": 2,
         "title": "Untitled",
         "publication": null,
@@ -917,6 +975,7 @@
         "ratings": 57
       },
       {
+        "series": "Empire of the Vampire Series",
         "number": 3,
         "title": "Untitled",
         "publication": null,
@@ -925,6 +984,7 @@
         "ratings": 23
       },
       {
+        "series": "Empire of the Vampire Series",
         "number": 4,
         "title": "Light of a Black Sun",
         "publication": null,
@@ -933,6 +993,7 @@
         "ratings": 1
       },
       {
+        "series": "Empire of the Vampire Series",
         "number": 5,
         "title": "The Road to Hell",
         "publication": null,
@@ -948,6 +1009,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/304356-the-radiant-emperor",
     "books": [
       {
+        "series": "The Radiant Emperor Series",
         "number": 1,
         "title": "She Who Became the Sun",
         "publication": {
@@ -963,6 +1025,7 @@
         "ratings": 31325
       },
       {
+        "series": "The Radiant Emperor Series",
         "number": 2,
         "title": "Untitled",
         "publication": null,
@@ -978,6 +1041,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/316135-convergence-saga",
     "books": [
       {
+        "series": "Convergence Saga",
         "number": 1,
         "title": "No Gods, No Monsters",
         "publication": {
@@ -1000,6 +1064,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/309359-the-bound-and-the-broken",
     "books": [
       {
+        "series": "The Bound and the Broken Series",
         "number": 1,
         "title": "Of Blood and Fire",
         "publication": {
@@ -1015,6 +1080,7 @@
         "ratings": 2313
       },
       {
+        "series": "The Bound and the Broken Series",
         "number": 2,
         "title": "Of Darkness and Light",
         "publication": {
@@ -1030,6 +1096,7 @@
         "ratings": 1095
       },
       {
+        "series": "The Bound and the Broken Series",
         "number": 3,
         "title": "Of War and Ruin",
         "publication": {
@@ -1052,6 +1119,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/125824-the-last-king-of-osten-ard",
     "books": [
       {
+        "series": "The Last King of Osten Ard Series",
         "number": 1,
         "title": "The Witchwood Crown",
         "publication": {
@@ -1067,6 +1135,7 @@
         "ratings": 3649
       },
       {
+        "series": "The Last King of Osten Ard Series",
         "number": 2,
         "title": "Empire of Grass",
         "publication": {
@@ -1089,6 +1158,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/298928-the-divide",
     "books": [
       {
+        "series": "The Divide Series",
         "number": 1,
         "title": "The Last Watch",
         "publication": {
@@ -1104,6 +1174,7 @@
         "ratings": 6014
       },
       {
+        "series": "The Divide Series",
         "number": 2,
         "title": "The Exiled Fleet",
         "publication": {
@@ -1126,6 +1197,7 @@
     "goodReadsUrl": "https://www.goodreads.com/series/301325-pact-and-pattern",
     "books": [
       {
+        "series": "Pact and Pattern Series",
         "number": 1,
         "title": "The Hand of the Sun King",
         "publication": {

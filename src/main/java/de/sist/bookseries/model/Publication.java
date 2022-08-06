@@ -1,18 +1,22 @@
 package de.sist.bookseries.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.time.temporal.TemporalAccessor;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class Publication {
 
     private PublicationDate publicationDate;
     private PublicationDate expectedPublicationDate;
+
+    public Publication() {
+    }
+
+    public Publication(PublicationDate publicationDate, PublicationDate expectedPublicationDate) {
+        this.publicationDate = publicationDate;
+        this.expectedPublicationDate = expectedPublicationDate;
+    }
 
     public static Publication published(TemporalAccessor accessor) {
         return new Publication(PublicationDate.from(accessor), null);
@@ -31,4 +35,24 @@ public class Publication {
         return expectedPublicationDate == null;
     }
 
+    public PublicationDate getPublicationDate() {
+        return publicationDate;
+    }
+
+    public PublicationDate getExpectedPublicationDate() {
+        return expectedPublicationDate;
+    }
+
+    @Override
+    public String toString() {
+        if (notYetPublished() && expectedPublicationDate != null) {
+            return "Expected " + expectedPublicationDate;
+        } else if (notYetPublished()) {
+            return "No publication date known";
+        } else if (publicationDate != null) {
+            return publicationDate.toString();
+        } else {
+            return "<Unknown>";
+        }
+    }
 }

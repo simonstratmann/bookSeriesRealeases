@@ -5,12 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import de.sist.bookseries.model.BookSeries;
 
 import java.io.File;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Random;
 
 public class Jackson {
 
@@ -29,10 +24,5 @@ public class Jackson {
         });
     }
 
-    public static void backup() throws Exception {
-        final String backupFileName = "bookSeries-" + LocalDateTime.now().format(DateTimeFormatter.ISO_DATE) + new Random().nextInt(1000) + ".json";
-        System.out.println("Writing backup to " + backupFileName);
-        Files.copy(BOOK_SERIES_JSON_FILE.toPath(), Paths.get(backupFileName));
-    }
 
 }
