@@ -31,6 +31,14 @@ public class AddSeriesCommand implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         final List<BookSeries> bookSeriesList = Jackson.load();
+        if (!newSeriesUrl.contains("/series/")) {
+            System.out.println("URL looks wrong");
+            return 1;
+        }
+        if (bookSeriesList.stream().anyMatch(x -> x.getGoodReadsUrl().equals(newSeriesUrl))) {
+            System.out.println("Already exists");
+            return 1;
+        }
 
         final List<BookSeries> newSeriesList = createInitialBookSeriesListFromListOfUrls(newSeriesUrl);
         for (BookSeries newSeries : newSeriesList) {

@@ -62,7 +62,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
             }
 
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         try {
             Jackson.write(bookSeriesList);
@@ -110,7 +110,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                     // Skip obscure releases
                     continue;
                 }
-                final Book newBook = new Book(series.getTitle(), bookNumber, title, bookUrl, rating, ratings);
+                final Book newBook = new Book(bookNumber, title, bookUrl, rating, ratings);
                 final Optional<Book> matchingExistingBook = series.getBooks().stream().filter(x -> x.getUrl().equals(bookUrl)).findFirst();
                 if (matchingExistingBook.isPresent()) {
                     System.out.println("Updating existing book " + newBook.getTitle());
@@ -124,18 +124,22 @@ public class UpdateSeriesCommand implements Callable<Integer> {
             }
         }
         for (Book book : series.getBooks()) {
-            if (book.getPublication() == null || book.getPublication().notYetPublished() || book.getPublication().getPublicationDate() == null) {
-                System.out.printf("Updating publication date for %s (%d)%n", book.getTitle(), book.getNumber());
-                final Document bookDoc = Jsoup.connect(book.getUrl()).get();
-                final Element publicationElement = bookDoc.selectFirst("#details > div:nth-child(2)");
-                if (publicationElement == null) {
-                    System.out.println("No publication data found");
-                    continue;
+            try {
+                if (book.getPublication() == null || book.getPublication().notYetPublished() || book.getPublication().getPublicationDate() == null) {
+                    System.out.printf("Updating publication date for %s (%d)%n", book.getTitle(), book.getNumber());
+                    final Document bookDoc = Jsoup.connect(book.getUrl()).get();
+                    final Element publicationElement = bookDoc.selectFirst("#details > div:nth-child(2)");
+                    if (publicationElement == null) {
+                        System.out.println("No publication data found");
+                        continue;
+                    }
+                    final String publishedDateString = publicationElement.text();
+                    final Publication publication = parsePublication(publishedDateString);
+                    System.out.println("Determined publication " + publication);
+                    book.setPublication(publication);
                 }
-                final String publishedDateString = publicationElement.text();
-                final Publication publication = parsePublication(publishedDateString);
-                System.out.println("Determined publication " + publication);
-                book.setPublication(publication);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }

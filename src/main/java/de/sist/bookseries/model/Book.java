@@ -1,10 +1,13 @@
 package de.sist.bookseries.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.google.common.collect.Iterables;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 public class Book {
 
-    private String series;
+    @JsonIgnore
+    private BookSeries series;
     private int number;
     private String title;
     private Publication publication;
@@ -16,7 +19,7 @@ public class Book {
     }
 
 
-    public Book(String series, int number, String title, String url, double rating, int ratings) {
+    public Book(int number, String title, String url, double rating, int ratings) {
         this.number = number;
         this.title = title;
         this.url = url;
@@ -25,9 +28,6 @@ public class Book {
     }
 
 
-    public String getSeries() {
-        return series;
-    }
 
     public int getNumber() {
         return number;
@@ -53,6 +53,7 @@ public class Book {
         return ratings;
     }
 
+
     public void update(Book book) {
         series = book.series;
         number = book.number;
@@ -70,8 +71,14 @@ public class Book {
 
     @Override
     public String toString() {
+        final String seriesTitle = series != null ? series.getTitle() : "<null>";
+        final String ofKnown = series == null ? "" : (" of "+Iterables.getLast(series.getBooks()).getNumber());
+        return String.format("Series: %s. Title: %s. Book number: %s%s. Publication: %s. Rating: %.2f (%d ratings). %s", seriesTitle, title, number, ofKnown, publication, rating, ratings, url);
 
-        return String.format("Series: %s. Title: %s. Book number: %s. Publication: %s. Rating: %.2f (%d ratings)", series, title, number, publication, rating, ratings);
+    }
 
+    @JsonIgnore
+    public void setSeries(BookSeries bookSeries) {
+        series = bookSeries;
     }
 }

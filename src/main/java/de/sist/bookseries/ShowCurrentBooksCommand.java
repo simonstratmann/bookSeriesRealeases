@@ -30,6 +30,11 @@ public class ShowCurrentBooksCommand implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         final List<BookSeries> bookSeriesList = Jackson.load();
+        for (BookSeries bookSeries : bookSeriesList) {
+            for (Book book : bookSeries.getBooks()) {
+                book.setSeries(bookSeries);
+            }
+        }
 
         final List<Book> releasedLately = bookSeriesList.stream().flatMap(x -> x.getBooks().stream()).filter(book -> {
                     if (book.getPublication() != null && !book.getPublication().notYetPublished()) {
