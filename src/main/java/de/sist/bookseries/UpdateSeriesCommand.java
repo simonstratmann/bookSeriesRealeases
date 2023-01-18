@@ -142,6 +142,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                 e.printStackTrace();
             }
         }
+        System.out.println();
     }
 
     private static Publication parsePublication(String input) {

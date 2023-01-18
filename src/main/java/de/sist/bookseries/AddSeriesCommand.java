@@ -1,5 +1,6 @@
 package de.sist.bookseries;
 
+import com.google.common.base.Strings;
 import de.sist.bookseries.model.BookSeries;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,6 +11,7 @@ import picocli.CommandLine;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 import java.util.concurrent.Callable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,7 +21,7 @@ import java.util.regex.Pattern;
 @SuppressWarnings("ConstantConditions")
 public class AddSeriesCommand implements Callable<Integer> {
 
-    @CommandLine.Parameters(index = "0", description = "Goodreads URL of the series")
+    @CommandLine.Parameters(description = "Goodreads URL of the series", defaultValue = "")
     private String newSeriesUrl;
 
 
@@ -30,11 +32,15 @@ public class AddSeriesCommand implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        final List<BookSeries> bookSeriesList = Jackson.load();
-        if (!newSeriesUrl.contains("/series/")) {
+        if (Strings.isNullOrEmpty(newSeriesUrl)) {
+            System.out.println("Please enter the Goodreads URL of the series");
+            newSeriesUrl = new Scanner(System.in).nextLine();
+        }
+        if (newSeriesUrl == null || !newSeriesUrl.contains("/series/")) {
             System.out.println("URL looks wrong");
             return 1;
         }
+        final List<BookSeries> bookSeriesList = Jackson.load();
         if (bookSeriesList.stream().anyMatch(x -> x.getGoodReadsUrl().equals(newSeriesUrl))) {
             System.out.println("Already exists");
             return 1;
