@@ -9,9 +9,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.jsoup.select.Evaluator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import picocli.CommandLine;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 import java.util.Collections;
@@ -33,6 +37,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         try {
+
             final List<BookSeries> bookSeriesList = Jackson.load();
 
             update(bookSeriesList);
@@ -55,14 +60,18 @@ public class UpdateSeriesCommand implements Callable<Integer> {
     }
 
     private static void update(List<BookSeries> bookSeriesList) {
+            WebDriver driver = new ChromeDriver();
         try {
             for (BookSeries series : bookSeriesList) {
                 System.out.println("Updating series " + series.getTitle() + " by " + series.getAuthor());
-                updateBooksForSeries(series);
+                updateBooksForSeries(series, driver);
+                Thread.sleep(2500);
             }
 
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            driver.quit();
         }
         try {
             Jackson.write(bookSeriesList);
@@ -71,8 +80,12 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         }
     }
 
-    private static void updateBooksForSeries(BookSeries series) throws IOException {
-        final Document seriesDoc = Jsoup.connect(series.getGoodReadsUrl()).get();
+    private static void updateBooksForSeries(BookSeries series, WebDriver driver) throws IOException {
+        driver.get(series.getGoodReadsUrl());
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.findElement(By.className("responsiveBook"));
+
+        final Document seriesDoc = Jsoup.parse(driver.getPageSource());
         for (Element book : seriesDoc.select(".responsiveBook")) {
             try {
                 final Element bookNumberElement = book.previousElementSibling();
@@ -128,7 +141,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                 if (book.getPublication() == null || book.getPublication().notYetPublished() || book.getPublication().getPublicationDate() == null) {
                     System.out.printf("Updating publication date for %s (%d)%n", book.getTitle(), book.getNumber());
                     final Document bookDoc = Jsoup.connect(book.getUrl()).get();
-                    final Element publicationElement = bookDoc.selectFirst("#details > div:nth-child(2)");
+                    final Element publicationElement = bookDoc.selectFirst(".FeaturedDetails > div:nth-child(2)");
                     if (publicationElement == null) {
                         System.out.println("No publication data found");
                         continue;
