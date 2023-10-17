@@ -12,6 +12,7 @@ import org.jsoup.select.Evaluator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import picocli.CommandLine;
 
 import java.io.IOException;
@@ -31,7 +32,7 @@ import java.util.regex.Pattern;
 public class UpdateSeriesCommand implements Callable<Integer> {
 
     private static final Pattern BOOK_NUMBER_PATTERN = Pattern.compile("Book (\\d+)");
-    private static final Pattern DETAILS_PUBLICATION_PATTERN = Pattern.compile("(Published (?<published>(?<month>\\w+)( (?<day>\\d+)\\w+)? (?<year>\\d+)))|(Expected publication: ?(?<expected>(?<expectedMonth>\\w+)?( (?<expectedDay>\\d+)\\w+)? (?<expectedYear>\\d+)))");
+    private static final Pattern DETAILS_PUBLICATION_PATTERN = Pattern.compile("(First)? published (?<published>[\\w ,]+)|(Expected publication:? ?(?<expected>[\\w ,]+))", Pattern.CASE_INSENSITIVE);
 
 
     @Override
@@ -60,7 +61,9 @@ public class UpdateSeriesCommand implements Callable<Integer> {
     }
 
     private static void update(List<BookSeries> bookSeriesList) {
-            WebDriver driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.setBinary("c:\\temp\\GoogleChromePortableDev\\App\\Chrome-bin\\chrome.exe");
+        WebDriver driver = new ChromeDriver(options);
         try {
             for (BookSeries series : bookSeriesList) {
                 System.out.println("Updating series " + series.getTitle() + " by " + series.getAuthor());
@@ -107,7 +110,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                 for (Element metaTextElement : metaTextElements) {
                     final String text = metaTextElement.text();
                     if (text.endsWith("Ratings")) {
-                        ratings = Integer.parseInt(text.replace(" Ratings", ""));
+                        ratings = Integer.parseInt(text.replace(" Ratings", "").replace(",",""));
                     }
                     if (text.contains("published")) {
                         published = true;
@@ -138,10 +141,15 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         }
         for (Book book : series.getBooks()) {
             try {
+                if (book.getTitle().contains("Untitled")) {
+                    System.out.println("Skipping update of \"Untitled\" book - we don't expect any details yet");
+                }
                 if (book.getPublication() == null || book.getPublication().notYetPublished() || book.getPublication().getPublicationDate() == null) {
                     System.out.printf("Updating publication date for %s (%d)%n", book.getTitle(), book.getNumber());
-                    final Document bookDoc = Jsoup.connect(book.getUrl()).get();
-                    final Element publicationElement = bookDoc.selectFirst(".FeaturedDetails > div:nth-child(2)");
+                    driver.get(book.getUrl());
+                    driver.findElement(By.className("FeaturedDetails"));
+                    final Document bookDoc = Jsoup.parse(driver.getPageSource());
+                    final Element publicationElement = bookDoc.selectFirst(".FeaturedDetails > p:nth-child(2)");
                     if (publicationElement == null) {
                         System.out.println("No publication data found");
                         continue;
@@ -158,7 +166,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         System.out.println();
     }
 
-    private static Publication parsePublication(String input) {
+    static Publication parsePublication(String input) {
         final Matcher publicationMatcher = DETAILS_PUBLICATION_PATTERN.matcher(input);
         if (!publicationMatcher.find()) {
             System.out.println("No match: " + input);
@@ -172,7 +180,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
             input = publicationMatcher.group("expected");
             published = false;
         }
-        input = input.trim().replaceAll("(\\d)(th|nd|rd|st)", "$1");
+        input = input.trim().replaceAll("(\\d)(th|nd|rd|st)", "$1").replace(",","");
         final TemporalAccessor parsed = DateTimeFormatter.ofPattern("[LLLL ][d ]yyyy").parse(input);
 
         if (published) {
