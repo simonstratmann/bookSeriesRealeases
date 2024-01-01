@@ -2,6 +2,7 @@ package de.sist.bookseries.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.collect.Iterables;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 public class Book {
@@ -53,6 +54,9 @@ public class Book {
         return ratings;
     }
 
+    public BookSeries getSeries() {
+        return series;
+    }
 
     public void update(Book book) {
         series = book.series;
@@ -71,10 +75,15 @@ public class Book {
 
     @Override
     public String toString() {
+        return toStringNoUrl() + " " + url;
+    }
+
+
+    public String toStringNoUrl() {
         final String seriesTitle = series != null ? series.getTitle() : "<null>";
         final String ofKnown = series == null ? "" : (" of "+Iterables.getLast(series.getBooks()).getNumber());
-        return String.format("Series: %s. Title: %s. Book number: %s%s. Publication: %s. Rating: %.2f (%d ratings). %s", seriesTitle, title, number, ofKnown, publication, rating, ratings, url);
-
+        final String author = series == null ? "<Unknown>" : series.getAuthor();
+        return String.format("%-25s %-30s Book %s%s  %-30s   Publication: %-20s  Rating: %.2f (%d ratings)", author, seriesTitle, number, ofKnown,title, publication, rating, ratings);
     }
 
     @JsonIgnore
