@@ -19,12 +19,14 @@ import java.io.IOException;
 import java.time.Duration;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.Callable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 
 @CommandLine.Command(name = "update", description = "Updates series data", aliases = {"u"})
@@ -90,6 +92,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         driver.findElement(By.className("responsiveBook"));
 
         final Document seriesDoc = Jsoup.parse(driver.getPageSource());
+        List<String> foundBookUrls = new ArrayList<>();
         for (Element book : seriesDoc.select(".responsiveBook")) {
             try {
                 final Element bookNumberElement = book.previousElementSibling();
@@ -136,9 +139,15 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                     System.out.println("Adding new book " + newBook.getTitle());
                     series.getBooks().add(newBook);
                 }
+                foundBookUrls.add(newBook.getUrl());
             } catch (NumberFormatException e) {
                 e.printStackTrace();
             }
+        }
+        List<Book> unknownBooks = series.getBooks().stream().filter(x -> !foundBookUrls.contains(x.getUrl())).toList();
+        if (!unknownBooks.isEmpty()) {
+            System.out.println("These books cannot be found anymore on the series page: " + unknownBooks.stream().map(Book::getTitle).collect(Collectors.joining(", ")));
+            series.getBooks().removeAll(unknownBooks);
         }
         for (Book book : series.getBooks()) {
             try {
