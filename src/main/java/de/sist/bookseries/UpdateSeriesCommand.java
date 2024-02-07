@@ -81,6 +81,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Completed");
     }
 
     private static void updateBooksForSeries(BookSeries series, WebDriver driver) throws IOException {
@@ -160,6 +161,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                     book.setPublication(publication);
                 }
             } catch (Exception e) {
+                System.out.println("Error loading details for book " + book + " at " + book.getUrl());
                 e.printStackTrace();
             }
         }

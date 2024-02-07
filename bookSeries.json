@@ -16,8 +16,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/15839976-red-rising",
-        "rating": 4.26,
-        "ratings": 379443
+        "rating": 4.27,
+        "ratings": 409668
       },
       {
         "number": 2,
@@ -31,8 +31,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/18966819-golden-son",
-        "rating": 4.45,
-        "ratings": 228696
+        "rating": 4.46,
+        "ratings": 246794
       },
       {
         "number": 3,
@@ -47,7 +47,7 @@
         },
         "url": "https://www.goodreads.com/book/show/18966806-morning-star",
         "rating": 4.5,
-        "ratings": 189540
+        "ratings": 204041
       },
       {
         "number": 4,
@@ -62,7 +62,7 @@
         },
         "url": "https://www.goodreads.com/book/show/33257757-iron-gold",
         "rating": 4.24,
-        "ratings": 79491
+        "ratings": 86900
       },
       {
         "number": 5,
@@ -76,8 +76,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/29226553-dark-age",
-        "rating": 4.46,
-        "ratings": 51054
+        "rating": 4.47,
+        "ratings": 56985
       },
       {
         "number": 6,
@@ -91,83 +91,16 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/29227774-light-bringer",
-        "rating": 4.76,
-        "ratings": 20949
+        "rating": 4.75,
+        "ratings": 29336
       },
       {
         "number": 7,
         "title": "Red God",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/61657799-red-god",
-        "rating": 4.41,
-        "ratings": 68
-      }
-    ]
-  },
-  {
-    "title": "The Locked Tomb Series",
-    "author": "Tamsyn Muir",
-    "goodReadsUrl": "https://www.goodreads.com/series/229503-the-locked-tomb",
-    "books": [
-      {
-        "number": 1,
-        "title": "Gideon the Ninth",
-        "publication": {
-          "publicationDate": {
-            "year": 2019,
-            "month": 9,
-            "day": 10
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/42036538-gideon-the-ninth",
-        "rating": 4.22,
-        "ratings": 119695
-      },
-      {
-        "number": 2,
-        "title": "Harrow the Ninth",
-        "publication": {
-          "publicationDate": {
-            "year": 2020,
-            "month": 8,
-            "day": 4
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/39325105-harrow-the-ninth",
-        "rating": 4.3,
-        "ratings": 58100
-      },
-      {
-        "number": 3,
-        "title": "Nona the Ninth",
-        "publication": {
-          "publicationDate": {
-            "year": 2022,
-            "month": 9,
-            "day": 13
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/58662507-nona-the-ninth",
-        "rating": 4.35,
-        "ratings": 31716
-      },
-      {
-        "number": 4,
-        "title": "Alecto the Ninth",
-        "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
-            "year": 2024,
-            "month": 1,
-            "day": 1
-          }
-        },
-        "url": "https://www.goodreads.com/book/show/39325106-alecto-the-ninth",
-        "rating": 4.42,
-        "ratings": 131
+        "rating": 4.5,
+        "ratings": 101
       }
     ]
   },
@@ -189,7 +122,7 @@
         },
         "url": "https://www.goodreads.com/book/show/40389431-seven-blades-in-black",
         "rating": 4.0,
-        "ratings": 5170
+        "ratings": 5280
       },
       {
         "number": 2,
@@ -204,7 +137,7 @@
         },
         "url": "https://www.goodreads.com/book/show/49088622-ten-arrows-of-iron",
         "rating": 4.15,
-        "ratings": 1383
+        "ratings": 1446
       },
       {
         "number": 3,
@@ -218,8 +151,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/60768875-three-axes-to-fall",
-        "rating": 4.15,
-        "ratings": 574
+        "rating": 4.16,
+        "ratings": 642
       }
     ]
   },
@@ -240,8 +173,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/52588656-we-ride-the-storm",
-        "rating": 3.86,
-        "ratings": 1647
+        "rating": 3.85,
+        "ratings": 1686
       },
       {
         "number": 2,
@@ -255,8 +188,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/53369487-we-lie-with-death",
-        "rating": 4.09,
-        "ratings": 535
+        "rating": 4.08,
+        "ratings": 555
       },
       {
         "number": 3,
@@ -271,7 +204,7 @@
         },
         "url": "https://www.goodreads.com/book/show/55965459-we-cry-for-blood",
         "rating": 4.07,
-        "ratings": 291
+        "ratings": 305
       },
       {
         "number": 4,
@@ -285,8 +218,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/58705823-we-dream-of-gods",
-        "rating": 3.75,
-        "ratings": 129
+        "rating": 3.72,
+        "ratings": 151
       }
     ]
   },
@@ -308,7 +241,7 @@
         },
         "url": "https://www.goodreads.com/book/show/41952489-the-rage-of-dragons",
         "rating": 4.31,
-        "ratings": 30170
+        "ratings": 31374
       },
       {
         "number": 2,
@@ -323,7 +256,7 @@
         },
         "url": "https://www.goodreads.com/book/show/43174603-the-fires-of-vengeance",
         "rating": 4.38,
-        "ratings": 12880
+        "ratings": 13498
       },
       {
         "number": 3,
@@ -337,16 +270,16 @@
           }
         },
         "url": "https://www.goodreads.com/book/show/53655834-the-lord-of-demons",
-        "rating": 4.24,
-        "ratings": 51
+        "rating": 4.26,
+        "ratings": 61
       },
       {
         "number": 4,
         "title": "Untitled",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/53655863-untitled",
-        "rating": 4.29,
-        "ratings": 17
+        "rating": 4.37,
+        "ratings": 19
       }
     ]
   },
@@ -367,8 +300,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/55559974-iron-prince",
-        "rating": 4.6,
-        "ratings": 13039
+        "rating": 4.59,
+        "ratings": 14235
       },
       {
         "number": 2,
@@ -382,8 +315,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/188994646-fire-and-song",
-        "rating": 4.72,
-        "ratings": 3187
+        "rating": 4.66,
+        "ratings": 5831
       }
     ]
   },
@@ -405,7 +338,7 @@
         },
         "url": "https://www.goodreads.com/book/show/50892360-black-sun",
         "rating": 4.2,
-        "ratings": 40399
+        "ratings": 42213
       },
       {
         "number": 2,
@@ -420,7 +353,7 @@
         },
         "url": "https://www.goodreads.com/book/show/57339626-fevered-star",
         "rating": 4.1,
-        "ratings": 13627
+        "ratings": 14669
       },
       {
         "number": 3,
@@ -464,8 +397,8 @@
           }
         },
         "url": "https://www.goodreads.com/book/show/60656015-mirrored-heavens",
-        "rating": 4.32,
-        "ratings": 19
+        "rating": 4.24,
+        "ratings": 38
       }
     ]
   },
@@ -486,8 +419,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods",
-        "rating": 4.26,
-        "ratings": 33557
+        "rating": 4.25,
+        "ratings": 37793
       },
       {
         "number": 2,
@@ -501,38 +434,38 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/57341045-the-hunger-of-the-gods",
-        "rating": 4.56,
-        "ratings": 15775
+        "rating": 4.55,
+        "ratings": 17988
       },
       {
         "number": 3,
         "title": "Untitled",
-        "publication": null,
+        "publication": {
+          "publicationDate": null,
+          "expectedPublicationDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 24
+          }
+        },
         "url": "https://www.goodreads.com/book/show/61755703-untitled",
         "rating": 4.53,
         "ratings": 17
-      }
-    ]
-  },
-  {
-    "title": "Blacktongue Series",
-    "author": "Christopher Buehlman",
-    "goodReadsUrl": "https://www.goodreads.com/series/311116-blacktongue",
-    "books": [
+      },
       {
-        "number": 1,
-        "title": "The Blacktongue Thief",
+        "number": 3,
+        "title": "The Fury of the Gods",
         "publication": {
-          "publicationDate": {
-            "year": 2021,
-            "month": 5,
-            "day": 25
-          },
-          "expectedPublicationDate": null
+          "publicationDate": null,
+          "expectedPublicationDate": {
+            "year": 2024,
+            "month": 10,
+            "day": 24
+          }
         },
-        "url": "https://www.goodreads.com/book/show/55077697-the-blacktongue-thief",
-        "rating": 4.22,
-        "ratings": 18414
+        "url": "https://www.goodreads.com/book/show/61755703-the-fury-of-the-gods",
+        "rating": 4.68,
+        "ratings": 25
       }
     ]
   },
@@ -553,16 +486,16 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/25451852-dawn-of-wonder",
-        "rating": 4.34,
-        "ratings": 24898
+        "rating": 4.35,
+        "ratings": 25038
       },
       {
         "number": 2,
         "title": "Untitled",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/34001654-untitled",
-        "rating": 3.98,
-        "ratings": 46
+        "rating": 4.0,
+        "ratings": 47
       },
       {
         "number": 3,
@@ -591,8 +524,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/43521682-the-bone-ships",
-        "rating": 4.06,
-        "ratings": 7286
+        "rating": 4.05,
+        "ratings": 7836
       },
       {
         "number": 2,
@@ -607,7 +540,7 @@
         },
         "url": "https://www.goodreads.com/book/show/50637119-call-of-the-bone-ships",
         "rating": 4.38,
-        "ratings": 3354
+        "ratings": 3658
       },
       {
         "number": 3,
@@ -622,7 +555,7 @@
         },
         "url": "https://www.goodreads.com/book/show/56076679-the-bone-ship-s-wake",
         "rating": 4.5,
-        "ratings": 2905
+        "ratings": 3169
       }
     ]
   },
@@ -644,7 +577,7 @@
         },
         "url": "https://www.goodreads.com/book/show/51340378-the-mask-of-mirrors",
         "rating": 4.07,
-        "ratings": 6939
+        "ratings": 7938
       },
       {
         "number": 2,
@@ -658,8 +591,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/57308929-the-liar-s-knot",
-        "rating": 4.49,
-        "ratings": 3189
+        "rating": 4.48,
+        "ratings": 3747
       },
       {
         "number": 3,
@@ -673,8 +606,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/59954183-labyrinth-s-heart",
-        "rating": 4.34,
-        "ratings": 1041
+        "rating": 4.32,
+        "ratings": 1668
       }
     ]
   },
@@ -695,16 +628,16 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/49789629-the-year-of-the-witching",
-        "rating": 3.82,
-        "ratings": 35143
+        "rating": 3.81,
+        "ratings": 36481
       },
       {
         "number": 2,
         "title": "The Dawn of the Coven",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/59753970-the-dawn-of-the-coven",
-        "rating": 4.6,
-        "ratings": 5
+        "rating": 4.67,
+        "ratings": 6
       }
     ]
   },
@@ -726,7 +659,7 @@
         },
         "url": "https://www.goodreads.com/book/show/56269205-empire-of-the-vampire",
         "rating": 4.36,
-        "ratings": 38508
+        "ratings": 41757
       },
       {
         "number": 2,
@@ -735,8 +668,8 @@
           "publicationDate": null,
           "expectedPublicationDate": {
             "year": 2024,
-            "month": 2,
-            "day": 29
+            "month": 3,
+            "day": 12
           }
         },
         "url": "https://www.goodreads.com/book/show/43728629-untitled",
@@ -748,8 +681,8 @@
         "title": "Untitled",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/43728639-untitled",
-        "rating": 3.54,
-        "ratings": 28
+        "rating": 3.72,
+        "ratings": 32
       },
       {
         "number": 2,
@@ -758,13 +691,28 @@
           "publicationDate": null,
           "expectedPublicationDate": {
             "year": 2024,
-            "month": 2,
-            "day": 29
+            "month": 3,
+            "day": 12
           }
         },
         "url": "https://www.goodreads.com/book/show/123200829-empire-of-the-damned",
         "rating": 4.37,
         "ratings": 124
+      },
+      {
+        "number": 2,
+        "title": "Empire of the Damned",
+        "publication": {
+          "publicationDate": null,
+          "expectedPublicationDate": {
+            "year": 2024,
+            "month": 3,
+            "day": 12
+          }
+        },
+        "url": "https://www.goodreads.com/book/show/126918599-empire-of-the-damned",
+        "rating": 4.6,
+        "ratings": 315
       }
     ]
   },
@@ -785,8 +733,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/48727813-she-who-became-the-sun",
-        "rating": 3.88,
-        "ratings": 61049
+        "rating": 3.87,
+        "ratings": 65891
       },
       {
         "number": 2,
@@ -800,8 +748,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/63132362-he-who-drowned-the-world",
-        "rating": 4.35,
-        "ratings": 3237
+        "rating": 4.32,
+        "ratings": 5349
       }
     ]
   },
@@ -823,7 +771,7 @@
         },
         "url": "https://www.goodreads.com/book/show/55748103-no-gods-no-monsters",
         "rating": 3.46,
-        "ratings": 5748
+        "ratings": 6076
       },
       {
         "number": 2,
@@ -838,59 +786,7 @@
         },
         "url": "https://www.goodreads.com/book/show/124053855-we-are-the-crisis",
         "rating": 4.03,
-        "ratings": 65
-      }
-    ]
-  },
-  {
-    "title": "The Bound and the Broken Series",
-    "author": "Ryan Cahill",
-    "goodReadsUrl": "https://www.goodreads.com/series/309359-the-bound-and-the-broken",
-    "books": [
-      {
-        "number": 1,
-        "title": "Of Blood and Fire",
-        "publication": {
-          "publicationDate": {
-            "year": 2021,
-            "month": 3,
-            "day": 20
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/56750401-of-blood-and-fire",
-        "rating": 4.15,
-        "ratings": 7190
-      },
-      {
-        "number": 2,
-        "title": "Of Darkness and Light",
-        "publication": {
-          "publicationDate": {
-            "year": 2021,
-            "month": 12,
-            "day": 31
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/58360991-of-darkness-and-light",
-        "rating": 4.49,
-        "ratings": 4003
-      },
-      {
-        "number": 3,
-        "title": "Of War and Ruin",
-        "publication": {
-          "publicationDate": {
-            "year": 2023,
-            "month": 1,
-            "day": 19
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/59919045-of-war-and-ruin",
-        "rating": 4.66,
-        "ratings": 2593
+        "ratings": 243
       }
     ]
   },
@@ -912,7 +808,7 @@
         },
         "url": "https://www.goodreads.com/book/show/53205794-the-last-watch",
         "rating": 3.96,
-        "ratings": 8919
+        "ratings": 9378
       },
       {
         "number": 2,
@@ -927,7 +823,22 @@
         },
         "url": "https://www.goodreads.com/book/show/55077639-the-exiled-fleet",
         "rating": 4.25,
-        "ratings": 4716
+        "ratings": 4943
+      },
+      {
+        "number": 3,
+        "title": "The Relentless Legion",
+        "publication": {
+          "publicationDate": null,
+          "expectedPublicationDate": {
+            "year": 2024,
+            "month": 11,
+            "day": 12
+          }
+        },
+        "url": "https://www.goodreads.com/book/show/203579245-the-relentless-legion",
+        "rating": 0.0,
+        "ratings": 0
       }
     ]
   },
@@ -949,7 +860,7 @@
         },
         "url": "https://www.goodreads.com/book/show/57596188-the-hand-of-the-sun-king",
         "rating": 3.81,
-        "ratings": 2122
+        "ratings": 2231
       },
       {
         "number": 2,
@@ -963,8 +874,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/59552137-the-garden-of-empire",
-        "rating": 3.87,
-        "ratings": 308
+        "rating": 3.78,
+        "ratings": 379
       },
       {
         "number": 3,
@@ -978,8 +889,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/122781677-the-pattern-of-the-world",
-        "rating": 3.89,
-        "ratings": 74
+        "rating": 3.83,
+        "ratings": 99
       }
     ]
   },
@@ -1000,8 +911,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/59521676-bastion",
-        "rating": 4.47,
-        "ratings": 4324
+        "rating": 4.46,
+        "ratings": 4538
       },
       {
         "number": 2,
@@ -1015,8 +926,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/123859623-the-rascor-plains",
-        "rating": 4.68,
-        "ratings": 1919
+        "rating": 4.66,
+        "ratings": 2147
       }
     ]
   },
@@ -1037,8 +948,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/53181090-the-stranger-times",
-        "rating": 4.21,
-        "ratings": 8409
+        "rating": 4.2,
+        "ratings": 9043
       },
       {
         "number": 2,
@@ -1052,8 +963,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/58297480-this-charming-man",
-        "rating": 4.39,
-        "ratings": 4189
+        "rating": 4.38,
+        "ratings": 4594
       },
       {
         "number": 3,
@@ -1067,23 +978,23 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/61395248-love-will-tear-us-apart",
-        "rating": 4.45,
-        "ratings": 2174
+        "rating": 4.44,
+        "ratings": 2650
       },
       {
         "number": 4,
         "title": "Relight My Fire",
         "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
+          "publicationDate": {
             "year": 2024,
             "month": 1,
             "day": 25
-          }
+          },
+          "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/141310699-relight-my-fire",
-        "rating": 4.69,
-        "ratings": 16
+        "rating": 4.59,
+        "ratings": 441
       }
     ]
   },
@@ -1105,15 +1016,15 @@
         },
         "url": "https://www.goodreads.com/book/show/60321139-the-immortality-thief",
         "rating": 4.1,
-        "ratings": 1362
+        "ratings": 1507
       },
       {
         "number": 2,
         "title": "The Unkillable Princess",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/106262523-the-unkillable-princess",
-        "rating": 3.67,
-        "ratings": 3
+        "rating": 4.0,
+        "ratings": 4
       }
     ]
   },
@@ -1149,8 +1060,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/56377548-carl-s-doomsday-scenario",
-        "rating": 4.59,
-        "ratings": 11739
+        "rating": 4.58,
+        "ratings": 13966
       },
       {
         "number": 3,
@@ -1164,8 +1075,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/57001971-the-dungeon-anarchist-s-cookbook",
-        "rating": 4.55,
-        "ratings": 10744
+        "rating": 4.54,
+        "ratings": 12672
       },
       {
         "number": 4,
@@ -1179,8 +1090,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/57905101-the-gate-of-the-feral-gods",
-        "rating": 4.61,
-        "ratings": 9527
+        "rating": 4.6,
+        "ratings": 11193
       },
       {
         "number": 5,
@@ -1194,8 +1105,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/60233239-the-butcher-s-masquerade",
-        "rating": 4.7,
-        "ratings": 8627
+        "rating": 4.69,
+        "ratings": 10128
       },
       {
         "number": 6,
@@ -1209,8 +1120,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/125887685-the-eye-of-the-bedlam-bride",
-        "rating": 4.73,
-        "ratings": 5655
+        "rating": 4.71,
+        "ratings": 7403
       },
       {
         "number": 1,
@@ -1224,8 +1135,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/56791389-dungeon-crawler-carl",
-        "rating": 4.56,
-        "ratings": 14678
+        "rating": 4.55,
+        "ratings": 17837
       }
     ]
   },
@@ -1246,8 +1157,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/35437058-master-assassins",
-        "rating": 4.08,
-        "ratings": 1985
+        "rating": 4.07,
+        "ratings": 2009
       },
       {
         "number": 2,
@@ -1262,7 +1173,7 @@
         },
         "url": "https://www.goodreads.com/book/show/55711345-sidewinders",
         "rating": 4.5,
-        "ratings": 527
+        "ratings": 543
       }
     ]
   },
@@ -1283,8 +1194,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/58293284-the-justice-of-kings",
-        "rating": 4.04,
-        "ratings": 6850
+        "rating": 4.03,
+        "ratings": 7944
       },
       {
         "number": 2,
@@ -1299,67 +1210,22 @@
         },
         "url": "https://www.goodreads.com/book/show/60028919-the-tyranny-of-faith",
         "rating": 4.36,
-        "ratings": 2355
+        "ratings": 3024
       },
       {
         "number": 3,
         "title": "The Trials of Empire",
         "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
+          "publicationDate": {
             "year": 2024,
             "month": 2,
             "day": 6
-          }
+          },
+          "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/60028924-the-trials-of-empire",
-        "rating": 4.0,
-        "ratings": 2
-      }
-    ]
-  },
-  {
-    "title": "Alex Stern Series",
-    "author": "Leigh Bardugo",
-    "goodReadsUrl": "https://www.goodreads.com/series/191949-alex-stern",
-    "books": [
-      {
-        "number": 1,
-        "title": "Ninth House",
-        "publication": {
-          "publicationDate": {
-            "year": 2019,
-            "month": 10,
-            "day": 8
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/43263680-ninth-house",
-        "rating": 4.03,
-        "ratings": 271558
-      },
-      {
-        "number": 2,
-        "title": "Hell Bent",
-        "publication": {
-          "publicationDate": {
-            "year": 2023,
-            "month": 1,
-            "day": 10
-          },
-          "expectedPublicationDate": null
-        },
-        "url": "https://www.goodreads.com/book/show/60652997-hell-bent",
-        "rating": 4.17,
-        "ratings": 88855
-      },
-      {
-        "number": 3,
-        "title": "Untitled",
-        "publication": null,
-        "url": "https://www.goodreads.com/book/show/78296505-untitled",
-        "rating": 4.52,
-        "ratings": 31
+        "rating": 4.44,
+        "ratings": 136
       }
     ]
   },
@@ -1380,23 +1246,38 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/123165953-the-captain",
-        "rating": 4.35,
-        "ratings": 5090
+        "rating": 4.3,
+        "ratings": 6416
       },
       {
         "number": 2,
         "title": "The Engineer",
         "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
+          "publicationDate": {
             "year": 2023,
             "month": 12,
             "day": 4
-          }
+          },
+          "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/199543504-the-engineer",
         "rating": 0.0,
         "ratings": 0
+      },
+      {
+        "number": 2,
+        "title": "The Engineer",
+        "publication": {
+          "publicationDate": {
+            "year": 2023,
+            "month": 12,
+            "day": 4
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/201127814-the-engineer",
+        "rating": 4.5,
+        "ratings": 2798
       }
     ]
   },
@@ -1417,16 +1298,16 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/58416952-the-will-of-the-many",
-        "rating": 4.66,
-        "ratings": 7732
+        "rating": 4.65,
+        "ratings": 17873
       },
       {
         "number": 2,
         "title": "The Strength of the Few",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/169485073-the-strength-of-the-few",
-        "rating": 5.0,
-        "ratings": 3
+        "rating": 4.74,
+        "ratings": 19
       }
     ]
   },
@@ -1447,8 +1328,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/61431922-fourth-wing",
-        "rating": 4.64,
-        "ratings": 734206
+        "rating": 4.61,
+        "ratings": 1231395
       },
       {
         "number": 2,
@@ -1462,8 +1343,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/90202302-iron-flame",
-        "rating": 4.53,
-        "ratings": 155760
+        "rating": 4.37,
+        "ratings": 686417
       },
       {
         "number": 3,
@@ -1515,8 +1396,8 @@
           "expectedPublicationDate": null
         },
         "url": "https://www.goodreads.com/book/show/61612864-the-book-that-wouldn-t-burn",
-        "rating": 4.15,
-        "ratings": 8175
+        "rating": 4.12,
+        "ratings": 11898
       },
       {
         "number": 2,
@@ -1530,8 +1411,8 @@
           }
         },
         "url": "https://www.goodreads.com/book/show/157031755-the-book-that-broke-the-world",
-        "rating": 4.75,
-        "ratings": 4
+        "rating": 4.78,
+        "ratings": 9
       }
     ]
   }
