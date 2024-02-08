@@ -3,6 +3,7 @@
     "title": "Red Rising Saga",
     "author": "Pierce Brown",
     "goodReadsUrl": "https://www.goodreads.com/series/117100-red-rising-saga",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -17,7 +18,7 @@
         },
         "url": "https://www.goodreads.com/book/show/15839976-red-rising",
         "rating": 4.27,
-        "ratings": 409668
+        "ratings": 409676
       },
       {
         "number": 2,
@@ -77,7 +78,7 @@
         },
         "url": "https://www.goodreads.com/book/show/29226553-dark-age",
         "rating": 4.47,
-        "ratings": 56985
+        "ratings": 56992
       },
       {
         "number": 6,
@@ -92,7 +93,7 @@
         },
         "url": "https://www.goodreads.com/book/show/29227774-light-bringer",
         "rating": 4.75,
-        "ratings": 29336
+        "ratings": 29341
       },
       {
         "number": 7,
@@ -108,6 +109,7 @@
     "title": "The Grave of Empires Series",
     "author": "Sam Sykes",
     "goodReadsUrl": "https://www.goodreads.com/series/255488-the-grave-of-empires",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -160,6 +162,7 @@
     "title": "The Reborn Empire Series",
     "author": "Devin Madson",
     "goodReadsUrl": "https://www.goodreads.com/series/237838-the-reborn-empire",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -227,6 +230,7 @@
     "title": "The Burning Series",
     "author": "Evan Winter",
     "goodReadsUrl": "https://www.goodreads.com/series/250573-the-burning",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -287,6 +291,7 @@
     "title": "Warformed: Stormweaver Series",
     "author": "Bryce O'Connor",
     "goodReadsUrl": "https://www.goodreads.com/series/302625-warformed-stormweaver",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -324,6 +329,7 @@
     "title": "Between Earth and Sky Series",
     "author": "Rebecca Roanhorse",
     "goodReadsUrl": "https://www.goodreads.com/series/266277-between-earth-and-sky",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -338,7 +344,7 @@
         },
         "url": "https://www.goodreads.com/book/show/50892360-black-sun",
         "rating": 4.2,
-        "ratings": 42213
+        "ratings": 42214
       },
       {
         "number": 2,
@@ -354,36 +360,6 @@
         "url": "https://www.goodreads.com/book/show/57339626-fevered-star",
         "rating": 4.1,
         "ratings": 14669
-      },
-      {
-        "number": 3,
-        "title": "Untitled",
-        "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
-            "year": 2024,
-            "month": 6,
-            "day": 4
-          }
-        },
-        "url": "https://www.goodreads.com/book/show/60656015-untitled",
-        "rating": 5.0,
-        "ratings": 1
-      },
-      {
-        "number": 3,
-        "title": "The Mirrored Heavens",
-        "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
-            "year": 2024,
-            "month": 6,
-            "day": 4
-          }
-        },
-        "url": "https://www.goodreads.com/book/show/60656015-the-mirrored-heavens",
-        "rating": 4.18,
-        "ratings": 11
       },
       {
         "number": 3,
@@ -406,6 +382,7 @@
     "title": "Bloodsworn Saga",
     "author": "John Gwynne",
     "goodReadsUrl": "https://www.goodreads.com/series/273156-bloodsworn-saga",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -420,7 +397,7 @@
         },
         "url": "https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods",
         "rating": 4.25,
-        "ratings": 37793
+        "ratings": 37795
       },
       {
         "number": 2,
@@ -436,21 +413,6 @@
         "url": "https://www.goodreads.com/book/show/57341045-the-hunger-of-the-gods",
         "rating": 4.55,
         "ratings": 17988
-      },
-      {
-        "number": 3,
-        "title": "Untitled",
-        "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
-            "year": 2024,
-            "month": 10,
-            "day": 24
-          }
-        },
-        "url": "https://www.goodreads.com/book/show/61755703-untitled",
-        "rating": 4.53,
-        "ratings": 17
       },
       {
         "number": 3,
@@ -473,6 +435,7 @@
     "title": "The Wakening Series",
     "author": "Jonathan Renshaw",
     "goodReadsUrl": "https://www.goodreads.com/series/156786-the-wakening",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -511,6 +474,7 @@
     "title": "The Tide Child Series",
     "author": "R.J. Barker",
     "goodReadsUrl": "https://www.goodreads.com/series/258685-the-tide-child",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -563,6 +527,7 @@
     "title": "Rook & Rose Series",
     "author": "M.A. Carrick",
     "goodReadsUrl": "https://www.goodreads.com/series/287237-rook-rose",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -615,6 +580,7 @@
     "title": "Bethel Series",
     "author": "Alexis Henderson",
     "goodReadsUrl": "https://www.goodreads.com/series/304073-bethel",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -645,6 +611,7 @@
     "title": "Empire of the Vampire Series",
     "author": "Jay Kristoff",
     "goodReadsUrl": "https://www.goodreads.com/series/254488-empire-of-the-vampire",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -662,42 +629,12 @@
         "ratings": 41757
       },
       {
-        "number": 2,
-        "title": "Untitled",
-        "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
-            "year": 2024,
-            "month": 3,
-            "day": 12
-          }
-        },
-        "url": "https://www.goodreads.com/book/show/43728629-untitled",
-        "rating": 4.26,
-        "ratings": 76
-      },
-      {
         "number": 3,
         "title": "Untitled",
         "publication": null,
         "url": "https://www.goodreads.com/book/show/43728639-untitled",
         "rating": 3.72,
         "ratings": 32
-      },
-      {
-        "number": 2,
-        "title": "Empire of the Damned",
-        "publication": {
-          "publicationDate": null,
-          "expectedPublicationDate": {
-            "year": 2024,
-            "month": 3,
-            "day": 12
-          }
-        },
-        "url": "https://www.goodreads.com/book/show/123200829-empire-of-the-damned",
-        "rating": 4.37,
-        "ratings": 124
       },
       {
         "number": 2,
@@ -720,6 +657,7 @@
     "title": "The Radiant Emperor Series",
     "author": "Shelley Parker-Chan",
     "goodReadsUrl": "https://www.goodreads.com/series/304356-the-radiant-emperor",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -757,6 +695,7 @@
     "title": "Convergence Saga",
     "author": "Cadwell Turnbull",
     "goodReadsUrl": "https://www.goodreads.com/series/316135-convergence-saga",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -794,6 +733,7 @@
     "title": "The Divide Series",
     "author": "J.S. Dewes",
     "goodReadsUrl": "https://www.goodreads.com/series/298928-the-divide",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -846,6 +786,7 @@
     "title": "Pact and Pattern Series",
     "author": "J.T. Greathouse",
     "goodReadsUrl": "https://www.goodreads.com/series/301325-pact-and-pattern",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -898,6 +839,7 @@
     "title": "The Immortal Great Souls Series",
     "author": "Phil Tucker",
     "goodReadsUrl": "https://www.goodreads.com/series/333746-the-immortal-great-souls",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -935,6 +877,7 @@
     "title": "Stranger Times Series",
     "author": "C.K. McDonnell",
     "goodReadsUrl": "https://www.goodreads.com/series/332062-stranger-times",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1002,6 +945,7 @@
     "title": "The Kystrom Chronicles Series",
     "author": "Taran Hunt",
     "goodReadsUrl": "https://www.goodreads.com/series/350805-the-kystrom-chronicles",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1032,6 +976,7 @@
     "title": "Dungeon Crawler Carl Series",
     "author": "Matt Dinniman",
     "goodReadsUrl": "https://www.goodreads.com/series/309211-dungeon-crawler-carl",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1144,6 +1089,7 @@
     "title": "The Fire Sacraments Series",
     "author": "Robert V.S. Redick",
     "goodReadsUrl": "https://www.goodreads.com/series/216413-the-fire-sacraments",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1181,6 +1127,7 @@
     "title": "Empire of the Wolf Series",
     "author": "Richard Swan",
     "goodReadsUrl": "https://www.goodreads.com/series/324773-empire-of-the-wolf",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1233,6 +1180,7 @@
     "title": "The Last Horizon Series",
     "author": "Will Wight",
     "goodReadsUrl": "https://www.goodreads.com/series/364813-the-last-horizon",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1260,21 +1208,6 @@
           },
           "expectedPublicationDate": null
         },
-        "url": "https://www.goodreads.com/book/show/199543504-the-engineer",
-        "rating": 0.0,
-        "ratings": 0
-      },
-      {
-        "number": 2,
-        "title": "The Engineer",
-        "publication": {
-          "publicationDate": {
-            "year": 2023,
-            "month": 12,
-            "day": 4
-          },
-          "expectedPublicationDate": null
-        },
         "url": "https://www.goodreads.com/book/show/201127814-the-engineer",
         "rating": 4.5,
         "ratings": 2798
@@ -1285,6 +1218,7 @@
     "title": "The Hierarchy Series",
     "author": "James Islington",
     "goodReadsUrl": "https://www.goodreads.com/series/358080-the-hierarchy",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1315,6 +1249,7 @@
     "title": "The Empyrean Series",
     "author": "Rebecca Yarros",
     "goodReadsUrl": "https://www.goodreads.com/series/362915-the-empyrean",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,
@@ -1383,6 +1318,7 @@
     "title": "The Library Trilogy",
     "author": "Mark Lawrence",
     "goodReadsUrl": "https://www.goodreads.com/series/343696-the-library-trilogy",
+    "lastUpdate": 1707330018.574993700,
     "books": [
       {
         "number": 1,

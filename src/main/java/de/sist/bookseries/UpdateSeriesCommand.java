@@ -15,9 +15,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import picocli.CommandLine;
 
-import java.io.IOException;
 import java.time.Duration;
+import java.time.Instant;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAccessor;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -38,7 +39,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
 
 
     @Override
-    public Integer call() throws Exception {
+    public Integer call() {
         try {
 
             final List<BookSeries> bookSeriesList = Jackson.load();
@@ -52,12 +53,12 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         return 0;
     }
 
-    public static void updateSeries(BookSeries series) throws Exception {
+    public static void updateSeries(BookSeries series) {
         update(Collections.singletonList(series));
     }
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int exitCode = new CommandLine(new UpdateSeriesCommand()).execute(args);
         System.exit(exitCode);
     }
@@ -68,9 +69,13 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         WebDriver driver = new ChromeDriver(options);
         try {
             for (BookSeries series : bookSeriesList) {
-                System.out.println("Updating series " + series.getTitle() + " by " + series.getAuthor());
+                if (series.getLastUpdate() != null && series.getLastUpdate().isAfter(Instant.now().minus(4 * 7 * 24, ChronoUnit.HOURS))) {
+                    System.out.println("Series was last updated less than 4 weeks ago - skipping it");
+                    continue;
+                }
+                System.out.printf("Updating series %s by %s (%d of %d)%n", series.getTitle(), series.getAuthor(), bookSeriesList.indexOf(series)+1, bookSeriesList.size());
                 updateBooksForSeries(series, driver);
-                Thread.sleep(2500);
+                Thread.sleep(5000);
             }
 
         } catch (Exception e) {
@@ -86,7 +91,7 @@ public class UpdateSeriesCommand implements Callable<Integer> {
         System.out.println("Completed");
     }
 
-    private static void updateBooksForSeries(BookSeries series, WebDriver driver) throws IOException {
+    private static void updateBooksForSeries(BookSeries series, WebDriver driver) {
         driver.get(series.getGoodReadsUrl());
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.findElement(By.className("responsiveBook"));
@@ -170,10 +175,15 @@ public class UpdateSeriesCommand implements Callable<Integer> {
                     book.setPublication(publication);
                 }
             } catch (Exception e) {
-                System.out.println("Error loading details for book " + book + " at " + book.getUrl());
+                if (e.getMessage().contains("Unable to locate element: {\"method\":\"css selector\",\"selector\":\".FeaturedDetails\"}")) {
+                    System.out.println("No publication details for " + book);
+                    continue;
+                }
+                System.out.println("Error loading details for book " + book);
                 e.printStackTrace();
             }
         }
+        series.setLastUpdate(Instant.now());
         System.out.println();
     }
 
