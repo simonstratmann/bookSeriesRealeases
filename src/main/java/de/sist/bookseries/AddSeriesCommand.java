@@ -9,7 +9,6 @@ import org.jsoup.select.Evaluator;
 import picocli.CommandLine;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.Callable;
@@ -18,14 +17,14 @@ import java.util.regex.Pattern;
 
 
 @CommandLine.Command(name = "add", description = "Adds a new series by goodreads URL", aliases = {"a"})
-@SuppressWarnings("ConstantConditions")
+@SuppressWarnings({"ConstantConditions", "CallToPrintStackTrace"})
 public class AddSeriesCommand implements Callable<Integer> {
 
     @CommandLine.Parameters(description = "Goodreads URL of the series", defaultValue = "")
     private String newSeriesUrl;
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int exitCode = new CommandLine(new AddSeriesCommand()).execute(args);
         System.exit(exitCode);
     }

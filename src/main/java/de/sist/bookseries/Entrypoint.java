@@ -7,7 +7,7 @@ import picocli.CommandLine;
 public class Entrypoint {
 
     @SuppressWarnings("InstantiationOfUtilityClass")
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         new CommandLine(new Entrypoint()).execute(args);
     }
 

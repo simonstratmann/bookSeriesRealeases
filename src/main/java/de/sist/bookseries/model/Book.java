@@ -2,9 +2,8 @@ package de.sist.bookseries.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.collect.Iterables;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.builder.ToStringBuilder;
 
+@SuppressWarnings("unused")
 public class Book {
 
     @JsonIgnore

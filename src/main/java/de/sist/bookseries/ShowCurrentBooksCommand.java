@@ -23,7 +23,7 @@ public class ShowCurrentBooksCommand implements Callable<Integer> {
     private int expectedNextDays;
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int exitCode = new CommandLine(new ShowCurrentBooksCommand()).execute(args);
         System.exit(exitCode);
     }

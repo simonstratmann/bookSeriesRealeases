@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 
 
 @CommandLine.Command(name = "update", description = "Updates series data", aliases = {"u"})
-@SuppressWarnings("ConstantConditions")
+@SuppressWarnings({"ConstantConditions", "CallToPrintStackTrace"})
 public class UpdateSeriesCommand implements Callable<Integer> {
 
     private static final Pattern BOOK_NUMBER_PATTERN = Pattern.compile("Book (\\d+)");
