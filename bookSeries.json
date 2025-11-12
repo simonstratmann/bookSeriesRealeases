@@ -2,7 +2,7 @@
   "title" : "Red Rising Saga",
   "author" : "Pierce Brown",
   "goodReadsUrl" : "https://www.goodreads.com/series/117100-red-rising-saga",
-  "lastUpdate" : 1757270535.547650900,
+  "lastUpdate" : 1762937518.190745100,
   "books" : [ {
     "number" : 1,
     "title" : "Red Rising",
@@ -16,7 +16,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/15839976-red-rising",
     "rating" : 4.27,
-    "ratings" : 683478
+    "ratings" : 719827
   }, {
     "number" : 2,
     "title" : "Golden Son",
@@ -30,7 +30,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/18966819-golden-son",
     "rating" : 4.49,
-    "ratings" : 417408
+    "ratings" : 441534
   }, {
     "number" : 3,
     "title" : "Morning Star",
@@ -43,8 +43,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/18966806-morning-star",
-    "rating" : 4.53,
-    "ratings" : 341535
+    "rating" : 4.54,
+    "ratings" : 361118
   }, {
     "number" : 4,
     "title" : "Iron Gold",
@@ -58,7 +58,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/33257757-iron-gold",
     "rating" : 4.21,
-    "ratings" : 155956
+    "ratings" : 166283
   }, {
     "number" : 5,
     "title" : "Dark Age",
@@ -72,7 +72,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/29226553-dark-age",
     "rating" : 4.5,
-    "ratings" : 111221
+    "ratings" : 119399
   }, {
     "number" : 6,
     "title" : "Light Bringer",
@@ -86,7 +86,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/29227774-light-bringer",
     "rating" : 4.76,
-    "ratings" : 83603
+    "ratings" : 91343
   }, {
     "number" : 7,
     "title" : "Red God",
@@ -99,14 +99,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/61657799-red-god",
-    "rating" : 4.53,
-    "ratings" : 337
+    "rating" : 4.5,
+    "ratings" : 361
   } ]
 }, {
   "title" : "The Grave of Empires Series",
   "author" : "Sam Sykes",
   "goodReadsUrl" : "https://www.goodreads.com/series/255488-the-grave-of-empires",
-  "lastUpdate" : 1757270541.374597500,
+  "lastUpdate" : 1762937523.966233300,
   "books" : [ {
     "number" : 1,
     "title" : "Seven Blades in Black",
@@ -120,7 +120,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/40389431-seven-blades-in-black",
     "rating" : 3.98,
-    "ratings" : 5755
+    "ratings" : 5785
   }, {
     "number" : 2,
     "title" : "Ten Arrows of Iron",
@@ -133,8 +133,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/49088622-ten-arrows-of-iron",
-    "rating" : 4.13,
-    "ratings" : 1682
+    "rating" : 4.14,
+    "ratings" : 1691
   }, {
     "number" : 3,
     "title" : "Three Axes to Fall",
@@ -147,14 +147,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/60768875-three-axes-to-fall",
-    "rating" : 4.11,
-    "ratings" : 875
+    "rating" : 4.1,
+    "ratings" : 890
   } ]
 }, {
   "title" : "The Reborn Empire Series",
   "author" : "Devin Madson",
   "goodReadsUrl" : "https://www.goodreads.com/series/237838-the-reborn-empire",
-  "lastUpdate" : 1757270547.370887300,
+  "lastUpdate" : 1762937529.648035200,
   "books" : [ {
     "number" : 1,
     "title" : "We Ride the Storm",
@@ -168,7 +168,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/52588656-we-ride-the-storm",
     "rating" : 3.82,
-    "ratings" : 1936
+    "ratings" : 1952
   }, {
     "number" : 2,
     "title" : "We Lie With Death",
@@ -182,7 +182,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/53369487-we-lie-with-death",
     "rating" : 4.07,
-    "ratings" : 659
+    "ratings" : 667
   }, {
     "number" : 3,
     "title" : "We Cry for Blood",
@@ -196,7 +196,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/55965459-we-cry-for-blood",
     "rating" : 4.05,
-    "ratings" : 391
+    "ratings" : 397
   }, {
     "number" : 4,
     "title" : "We Dream of Gods",
@@ -209,14 +209,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/58705823-we-dream-of-gods",
-    "rating" : 3.68,
-    "ratings" : 234
+    "rating" : 3.66,
+    "ratings" : 238
   } ]
 }, {
   "title" : "The Burning Series",
   "author" : "Evan Winter",
   "goodReadsUrl" : "https://www.goodreads.com/series/250573-the-burning",
-  "lastUpdate" : 1757270556.956809100,
+  "lastUpdate" : 1762937544.277459600,
   "books" : [ {
     "number" : 1,
     "title" : "The Rage of Dragons",
@@ -230,7 +230,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/41952489-the-rage-of-dragons",
     "rating" : 4.31,
-    "ratings" : 44017
+    "ratings" : 45076
   }, {
     "number" : 2,
     "title" : "The Fires of Vengeance",
@@ -244,7 +244,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/43174603-the-fires-of-vengeance",
     "rating" : 4.38,
-    "ratings" : 20104
+    "ratings" : 20656
   }, {
     "number" : 3,
     "title" : "The Lord of Demons",
@@ -257,8 +257,8 @@
       }
     },
     "url" : "https://www.goodreads.com/book/show/53655834-the-lord-of-demons",
-    "rating" : 4.4,
-    "ratings" : 86
+    "rating" : 4.36,
+    "ratings" : 87
   }, {
     "number" : 4,
     "title" : "Untitled",
@@ -271,7 +271,7 @@
   "title" : "Warformed: Stormweaver Series",
   "author" : "Bryce O'Connor",
   "goodReadsUrl" : "https://www.goodreads.com/series/302625-warformed-stormweaver",
-  "lastUpdate" : 1757270562.691375200,
+  "lastUpdate" : 1762937550.070925600,
   "books" : [ {
     "number" : 1,
     "title" : "Iron Prince",
@@ -285,7 +285,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/55559974-iron-prince",
     "rating" : 4.58,
-    "ratings" : 17525
+    "ratings" : 17840
   }, {
     "number" : 2,
     "title" : "Fire and Song",
@@ -299,13 +299,13 @@
     },
     "url" : "https://www.goodreads.com/book/show/188994646-fire-and-song",
     "rating" : 4.61,
-    "ratings" : 9270
+    "ratings" : 9547
   } ]
 }, {
   "title" : "Between Earth and Sky Series",
   "author" : "Rebecca Roanhorse",
   "goodReadsUrl" : "https://www.goodreads.com/series/266277-between-earth-and-sky",
-  "lastUpdate" : 1757270568.465669800,
+  "lastUpdate" : 1762937557.249632100,
   "books" : [ {
     "number" : 1,
     "title" : "Black Sun",
@@ -318,8 +318,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/50892360-black-sun",
-    "rating" : 4.18,
-    "ratings" : 52264
+    "rating" : 4.17,
+    "ratings" : 53146
   }, {
     "number" : 2,
     "title" : "Fevered Star",
@@ -333,7 +333,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/57339626-fevered-star",
     "rating" : 4.08,
-    "ratings" : 20378
+    "ratings" : 20937
   }, {
     "number" : 3,
     "title" : "Mirrored Heavens",
@@ -346,14 +346,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/60656015-mirrored-heavens",
-    "rating" : 4.23,
-    "ratings" : 8293
+    "rating" : 4.22,
+    "ratings" : 8800
   } ]
 }, {
   "title" : "The Wakening Series",
   "author" : "Jonathan Renshaw",
   "goodReadsUrl" : "https://www.goodreads.com/series/156786-the-wakening",
-  "lastUpdate" : 1757270586.746648700,
+  "lastUpdate" : 1762937566.030808500,
   "books" : [ {
     "number" : 1,
     "title" : "Dawn of Wonder",
@@ -367,7 +367,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/25451852-dawn-of-wonder",
     "rating" : 4.35,
-    "ratings" : 25854
+    "ratings" : 25899
   }, {
     "number" : 2,
     "title" : "Untitled",
@@ -387,7 +387,7 @@
   "title" : "The Tide Child Series",
   "author" : "R.J. Barker",
   "goodReadsUrl" : "https://www.goodreads.com/series/258685-the-tide-child",
-  "lastUpdate" : 1757270592.517331900,
+  "lastUpdate" : 1762937571.747215300,
   "books" : [ {
     "number" : 1,
     "title" : "The Bone Ships",
@@ -401,7 +401,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/43521682-the-bone-ships",
     "rating" : 4.03,
-    "ratings" : 11012
+    "ratings" : 11308
   }, {
     "number" : 2,
     "title" : "Call of the Bone Ships",
@@ -415,7 +415,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/50637119-call-of-the-bone-ships",
     "rating" : 4.38,
-    "ratings" : 5372
+    "ratings" : 5515
   }, {
     "number" : 3,
     "title" : "The Bone Ship's Wake",
@@ -428,14 +428,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/56076679-the-bone-ship-s-wake",
-    "rating" : 4.49,
-    "ratings" : 4764
+    "rating" : 4.48,
+    "ratings" : 4906
   } ]
 }, {
   "title" : "Rook & Rose Series",
   "author" : "M.A. Carrick",
   "goodReadsUrl" : "https://www.goodreads.com/series/287237-rook-rose",
-  "lastUpdate" : 1757270598.169579300,
+  "lastUpdate" : 1762937577.405364100,
   "books" : [ {
     "number" : 1,
     "title" : "The Mask of Mirrors",
@@ -449,7 +449,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/51340378-the-mask-of-mirrors",
     "rating" : 4.01,
-    "ratings" : 13074
+    "ratings" : 13450
   }, {
     "number" : 2,
     "title" : "The Liar’s Knot",
@@ -462,8 +462,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/57308929-the-liar-s-knot",
-    "rating" : 4.44,
-    "ratings" : 6623
+    "rating" : 4.43,
+    "ratings" : 6851
   }, {
     "number" : 3,
     "title" : "Labyrinth's Heart",
@@ -477,13 +477,13 @@
     },
     "url" : "https://www.goodreads.com/book/show/59954183-labyrinth-s-heart",
     "rating" : 4.26,
-    "ratings" : 4139
+    "ratings" : 4493
   } ]
 }, {
   "title" : "Bethel Series",
   "author" : "Alexis Henderson",
   "goodReadsUrl" : "https://www.goodreads.com/series/304073-bethel",
-  "lastUpdate" : 1757270669.323672800,
+  "lastUpdate" : 1762937584.337495800,
   "books" : [ {
     "number" : 1,
     "title" : "The Year of the Witching",
@@ -496,21 +496,21 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/49789629-the-year-of-the-witching",
-    "rating" : 3.81,
-    "ratings" : 43964
+    "rating" : 3.8,
+    "ratings" : 45341
   }, {
     "number" : 2,
     "title" : "The Dawn of the Coven",
     "publication" : null,
     "url" : "https://www.goodreads.com/book/show/74296654-the-dawn-of-the-coven",
-    "rating" : 3.91,
+    "rating" : 4.0,
     "ratings" : 11
   } ]
 }, {
   "title" : "The Radiant Emperor Series",
   "author" : "Shelley Parker-Chan",
   "goodReadsUrl" : "https://www.goodreads.com/series/304356-the-radiant-emperor",
-  "lastUpdate" : 1757270682.975305000,
+  "lastUpdate" : 1762937590.028940300,
   "books" : [ {
     "number" : 1,
     "title" : "She Who Became the Sun",
@@ -524,7 +524,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/48727813-she-who-became-the-sun",
     "rating" : 3.84,
-    "ratings" : 90737
+    "ratings" : 92254
   }, {
     "number" : 2,
     "title" : "He Who Drowned the World",
@@ -538,13 +538,13 @@
     },
     "url" : "https://www.goodreads.com/book/show/63132362-he-who-drowned-the-world",
     "rating" : 4.21,
-    "ratings" : 14436
+    "ratings" : 14977
   } ]
 }, {
   "title" : "Convergence Saga",
   "author" : "Cadwell Turnbull",
   "goodReadsUrl" : "https://www.goodreads.com/series/316135-convergence-saga",
-  "lastUpdate" : 1757270690.708028400,
+  "lastUpdate" : 1762937598.012884800,
   "books" : [ {
     "number" : 1,
     "title" : "No Gods, No Monsters",
@@ -558,7 +558,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/55748103-no-gods-no-monsters",
     "rating" : 3.43,
-    "ratings" : 7635
+    "ratings" : 7779
   }, {
     "number" : 2,
     "title" : "We Are the Crisis",
@@ -571,28 +571,28 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/124053855-we-are-the-crisis",
-    "rating" : 3.96,
-    "ratings" : 677
+    "rating" : 3.95,
+    "ratings" : 709
   }, {
     "number" : 3,
     "title" : "A Ruin, Great and Free",
     "publication" : {
-      "publicationDate" : null,
-      "expectedPublicationDate" : {
+      "publicationDate" : {
         "year" : 2025,
         "month" : 9,
         "day" : 16
-      }
+      },
+      "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/228675239-a-ruin-great-and-free",
-    "rating" : 4.82,
-    "ratings" : 11
+    "rating" : 4.3,
+    "ratings" : 57
   } ]
 }, {
   "title" : "The Divide Series",
   "author" : "J.S. Dewes",
   "goodReadsUrl" : "https://www.goodreads.com/series/298928-the-divide",
-  "lastUpdate" : 1757270696.979344500,
+  "lastUpdate" : 1762937663.622474700,
   "books" : [ {
     "number" : 1,
     "title" : "The Last Watch",
@@ -606,7 +606,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/53205794-the-last-watch",
     "rating" : 3.97,
-    "ratings" : 11663
+    "ratings" : 11836
   }, {
     "number" : 2,
     "title" : "The Exiled Fleet",
@@ -620,7 +620,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/55077639-the-exiled-fleet",
     "rating" : 4.25,
-    "ratings" : 6348
+    "ratings" : 6454
   }, {
     "number" : 3,
     "title" : "The Relentless Legion",
@@ -633,14 +633,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/203579245-the-relentless-legion",
-    "rating" : 4.09,
-    "ratings" : 1796
+    "rating" : 4.07,
+    "ratings" : 1950
   } ]
 }, {
   "title" : "Pact and Pattern Series",
   "author" : "J.T. Greathouse",
   "goodReadsUrl" : "https://www.goodreads.com/series/301325-pact-and-pattern",
-  "lastUpdate" : 1757270702.739366500,
+  "lastUpdate" : 1762937669.260965000,
   "books" : [ {
     "number" : 1,
     "title" : "The Hand of the Sun King",
@@ -654,7 +654,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/57596188-the-hand-of-the-sun-king",
     "rating" : 3.77,
-    "ratings" : 2830
+    "ratings" : 2867
   }, {
     "number" : 2,
     "title" : "The Garden of Empire",
@@ -667,8 +667,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/59552137-the-garden-of-empire",
-    "rating" : 3.66,
-    "ratings" : 656
+    "rating" : 3.65,
+    "ratings" : 673
   }, {
     "number" : 3,
     "title" : "The Pattern of the World",
@@ -681,14 +681,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/122781677-the-pattern-of-the-world",
-    "rating" : 3.56,
-    "ratings" : 300
+    "rating" : 3.54,
+    "ratings" : 316
   } ]
 }, {
   "title" : "The Immortal Great Souls Series",
   "author" : "Phil Tucker",
   "goodReadsUrl" : "https://www.goodreads.com/series/333746-the-immortal-great-souls",
-  "lastUpdate" : 1757270708.568012200,
+  "lastUpdate" : 1762937676.831826900,
   "books" : [ {
     "number" : 1,
     "title" : "Bastion",
@@ -702,7 +702,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/59521676-bastion",
     "rating" : 4.4,
-    "ratings" : 6474
+    "ratings" : 6632
   }, {
     "number" : 2,
     "title" : "The Rascor Plains",
@@ -715,8 +715,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/123859623-the-rascor-plains",
-    "rating" : 4.61,
-    "ratings" : 3631
+    "rating" : 4.6,
+    "ratings" : 3753
   }, {
     "number" : 3,
     "title" : "LastRock",
@@ -730,13 +730,20 @@
     },
     "url" : "https://www.goodreads.com/book/show/207613507-lastrock",
     "rating" : 4.64,
-    "ratings" : 2800
+    "ratings" : 2918
+  }, {
+    "number" : 4,
+    "title" : "The Lost Cube",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/242470097-the-lost-cube",
+    "rating" : 4.72,
+    "ratings" : 734
   } ]
 }, {
   "title" : "Stranger Times Series",
   "author" : "C.K. McDonnell",
   "goodReadsUrl" : "https://www.goodreads.com/series/332062-stranger-times",
-  "lastUpdate" : 1757270715.922347200,
+  "lastUpdate" : 1762937685.156832500,
   "books" : [ {
     "number" : 1,
     "title" : "The Stranger Times",
@@ -750,7 +757,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/53181090-the-stranger-times",
     "rating" : 4.17,
-    "ratings" : 13520
+    "ratings" : 13946
   }, {
     "number" : 2,
     "title" : "This Charming Man",
@@ -764,7 +771,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/58297480-this-charming-man",
     "rating" : 4.33,
-    "ratings" : 7396
+    "ratings" : 7671
   }, {
     "number" : 3,
     "title" : "Love Will Tear Us Apart",
@@ -777,8 +784,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/61395248-love-will-tear-us-apart",
-    "rating" : 4.37,
-    "ratings" : 4845
+    "rating" : 4.36,
+    "ratings" : 5063
   }, {
     "number" : 4,
     "title" : "Relight My Fire",
@@ -791,28 +798,28 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/141310699-relight-my-fire",
-    "rating" : 4.44,
-    "ratings" : 3368
+    "rating" : 4.43,
+    "ratings" : 3601
   }, {
     "number" : 5,
     "title" : "Ring the Bells",
     "publication" : {
-      "publicationDate" : null,
-      "expectedPublicationDate" : {
+      "publicationDate" : {
         "year" : 2025,
         "month" : 10,
         "day" : 9
-      }
+      },
+      "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/223482741-ring-the-bells",
-    "rating" : 4.62,
-    "ratings" : 13
+    "rating" : 4.56,
+    "ratings" : 527
   } ]
 }, {
   "title" : "The Kystrom Chronicles Series",
   "author" : "Taran Hunt",
   "goodReadsUrl" : "https://www.goodreads.com/series/350805-the-kystrom-chronicles",
-  "lastUpdate" : 1757270723.635354400,
+  "lastUpdate" : 1762937695.464530100,
   "books" : [ {
     "number" : 1,
     "title" : "The Immortality Thief",
@@ -826,20 +833,20 @@
     },
     "url" : "https://www.goodreads.com/book/show/60321139-the-immortality-thief",
     "rating" : 4.08,
-    "ratings" : 2250
+    "ratings" : 2321
   }, {
     "number" : 2,
     "title" : "The Unkillable Princess",
     "publication" : null,
     "url" : "https://www.goodreads.com/book/show/214152226-the-unkillable-princess",
     "rating" : 4.18,
-    "ratings" : 298
+    "ratings" : 339
   } ]
 }, {
   "title" : "Dungeon Crawler Carl Series",
   "author" : "Matt Dinniman",
   "goodReadsUrl" : "https://www.goodreads.com/series/309211-dungeon-crawler-carl",
-  "lastUpdate" : 1757270730.735710700,
+  "lastUpdate" : 1762937704.310922400,
   "books" : [ {
     "number" : 2,
     "title" : "Carl's Doomsday Scenario",
@@ -852,8 +859,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/56377548-carl-s-doomsday-scenario",
-    "rating" : 4.53,
-    "ratings" : 93997
+    "rating" : 4.52,
+    "ratings" : 114217
   }, {
     "number" : 3,
     "title" : "The Dungeon Anarchist's Cookbook",
@@ -866,8 +873,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/57001971-the-dungeon-anarchist-s-cookbook",
-    "rating" : 4.46,
-    "ratings" : 78084
+    "rating" : 4.45,
+    "ratings" : 95356
   }, {
     "number" : 4,
     "title" : "The Gate of the Feral Gods",
@@ -880,8 +887,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/57905101-the-gate-of-the-feral-gods",
-    "rating" : 4.56,
-    "ratings" : 65732
+    "rating" : 4.55,
+    "ratings" : 80154
   }, {
     "number" : 5,
     "title" : "The Butcher's Masquerade",
@@ -895,7 +902,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/60233239-the-butcher-s-masquerade",
     "rating" : 4.69,
-    "ratings" : 57079
+    "ratings" : 70001
   }, {
     "number" : 6,
     "title" : "The Eye of the Bedlam Bride",
@@ -909,7 +916,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/125887685-the-eye-of-the-bedlam-bride",
     "rating" : 4.66,
-    "ratings" : 47915
+    "ratings" : 59393
   }, {
     "number" : 1,
     "title" : "Dungeon Crawler Carl",
@@ -922,8 +929,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/56791389-dungeon-crawler-carl",
-    "rating" : 4.5,
-    "ratings" : 139503
+    "rating" : 4.49,
+    "ratings" : 169063
   }, {
     "number" : 7,
     "title" : "This Inevitable Ruin",
@@ -937,27 +944,27 @@
     },
     "url" : "https://www.goodreads.com/book/show/216017751-this-inevitable-ruin",
     "rating" : 4.68,
-    "ratings" : 35750
+    "ratings" : 46309
   }, {
     "number" : 8,
-    "title" : "Carl's Book of Boom",
+    "title" : "A Parade of Horribles",
     "publication" : {
       "publicationDate" : null,
       "expectedPublicationDate" : {
         "year" : 2026,
-        "month" : 6,
-        "day" : 1
+        "month" : 5,
+        "day" : 12
       }
     },
-    "url" : "https://www.goodreads.com/book/show/228928465-carl-s-book-of-boom",
-    "rating" : 4.68,
-    "ratings" : 104
+    "url" : "https://www.goodreads.com/book/show/228928465-a-parade-of-horribles",
+    "rating" : 4.69,
+    "ratings" : 141
   } ]
 }, {
   "title" : "The Fire Sacraments Series",
   "author" : "Robert V.S. Redick",
   "goodReadsUrl" : "https://www.goodreads.com/series/216413-the-fire-sacraments",
-  "lastUpdate" : 1757270736.504024400,
+  "lastUpdate" : 1762937709.989625800,
   "books" : [ {
     "number" : 1,
     "title" : "Master Assassins",
@@ -971,7 +978,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/35437058-master-assassins",
     "rating" : 4.06,
-    "ratings" : 2177
+    "ratings" : 2190
   }, {
     "number" : 2,
     "title" : "Sidewinders",
@@ -984,14 +991,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/55711345-sidewinders",
-    "rating" : 4.48,
-    "ratings" : 665
+    "rating" : 4.49,
+    "ratings" : 673
   } ]
 }, {
   "title" : "Empire of the Wolf Series",
   "author" : "Richard Swan",
   "goodReadsUrl" : "https://www.goodreads.com/series/324773-empire-of-the-wolf",
-  "lastUpdate" : 1757270742.158455700,
+  "lastUpdate" : 1762937715.671301500,
   "books" : [ {
     "number" : 1,
     "title" : "The Justice of Kings",
@@ -1005,7 +1012,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/58293284-the-justice-of-kings",
     "rating" : 4.0,
-    "ratings" : 14442
+    "ratings" : 15001
   }, {
     "number" : 2,
     "title" : "The Tyranny of Faith",
@@ -1018,8 +1025,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/60028919-the-tyranny-of-faith",
-    "rating" : 4.27,
-    "ratings" : 6993
+    "rating" : 4.26,
+    "ratings" : 7326
   }, {
     "number" : 3,
     "title" : "The Trials of Empire",
@@ -1033,13 +1040,13 @@
     },
     "url" : "https://www.goodreads.com/book/show/60028924-the-trials-of-empire",
     "rating" : 4.11,
-    "ratings" : 4790
+    "ratings" : 5085
   } ]
 }, {
   "title" : "The Last Horizon Series",
   "author" : "Will Wight",
   "goodReadsUrl" : "https://www.goodreads.com/series/364813-the-last-horizon",
-  "lastUpdate" : 1757270750.159447600,
+  "lastUpdate" : 1762937721.317643300,
   "books" : [ {
     "number" : 1,
     "title" : "The Captain",
@@ -1052,8 +1059,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/123165953-the-captain",
-    "rating" : 4.28,
-    "ratings" : 9288
+    "rating" : 4.27,
+    "ratings" : 9493
   }, {
     "number" : 2,
     "title" : "The Engineer",
@@ -1067,7 +1074,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/201127814-the-engineer",
     "rating" : 4.42,
-    "ratings" : 5709
+    "ratings" : 5877
   }, {
     "number" : 3,
     "title" : "The Knight",
@@ -1081,7 +1088,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/213353605-the-knight",
     "rating" : 4.46,
-    "ratings" : 4175
+    "ratings" : 4348
   }, {
     "number" : 4,
     "title" : "The Pilot",
@@ -1094,14 +1101,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/235156795-the-pilot",
-    "rating" : 4.45,
-    "ratings" : 1921
+    "rating" : 4.42,
+    "ratings" : 2363
   } ]
 }, {
   "title" : "The Hierarchy Series",
   "author" : "James Islington",
   "goodReadsUrl" : "https://www.goodreads.com/series/358080-the-hierarchy",
-  "lastUpdate" : 1757270758.084296600,
+  "lastUpdate" : 1762937728.622757300,
   "books" : [ {
     "number" : 1,
     "title" : "The Will of the Many",
@@ -1115,27 +1122,27 @@
     },
     "url" : "https://www.goodreads.com/book/show/58416952-the-will-of-the-many",
     "rating" : 4.6,
-    "ratings" : 144901
+    "ratings" : 164964
   }, {
     "number" : 2,
     "title" : "The Strength of the Few",
     "publication" : {
-      "publicationDate" : null,
-      "expectedPublicationDate" : {
+      "publicationDate" : {
         "year" : 2025,
         "month" : 11,
         "day" : 11
-      }
+      },
+      "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/169485073-the-strength-of-the-few",
-    "rating" : 4.64,
-    "ratings" : 289
+    "rating" : 4.62,
+    "ratings" : 482
   } ]
 }, {
   "title" : "The Library Trilogy",
   "author" : "Mark Lawrence",
   "goodReadsUrl" : "https://www.goodreads.com/series/343696-the-library-trilogy",
-  "lastUpdate" : 1757270763.902915600,
+  "lastUpdate" : 1762937734.429352800,
   "books" : [ {
     "number" : 1,
     "title" : "The Book That Wouldn’t Burn",
@@ -1148,8 +1155,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/61612864-the-book-that-wouldn-t-burn",
-    "rating" : 3.98,
-    "ratings" : 37412
+    "rating" : 3.97,
+    "ratings" : 39051
   }, {
     "number" : 2,
     "title" : "The Book That Broke the World",
@@ -1162,8 +1169,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/157031755-the-book-that-broke-the-world",
-    "rating" : 4.02,
-    "ratings" : 12885
+    "rating" : 4.01,
+    "ratings" : 13749
   }, {
     "number" : 3,
     "title" : "The Book That Held Her Heart",
@@ -1176,14 +1183,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/216247528-the-book-that-held-her-heart",
-    "rating" : 3.79,
-    "ratings" : 5403
+    "rating" : 3.77,
+    "ratings" : 6370
   } ]
 }, {
   "title" : "Above the Black Series",
   "author" : "Marc J. Gregson",
   "goodReadsUrl" : "https://www.goodreads.com/series/365493-above-the-black",
-  "lastUpdate" : 1757270770.835551600,
+  "lastUpdate" : 1762937741.604195500,
   "books" : [ {
     "number" : 1,
     "title" : "Sky's End",
@@ -1197,7 +1204,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/60770260-sky-s-end",
     "rating" : 4.23,
-    "ratings" : 3939
+    "ratings" : 4157
   }, {
     "number" : 3,
     "title" : "Downfall",
@@ -1205,13 +1212,13 @@
       "publicationDate" : null,
       "expectedPublicationDate" : {
         "year" : 2026,
-        "month" : 1,
-        "day" : 1
+        "month" : 3,
+        "day" : 17
       }
     },
     "url" : "https://www.goodreads.com/book/show/123223990-downfall",
-    "rating" : 4.83,
-    "ratings" : 18
+    "rating" : 4.75,
+    "ratings" : 24
   }, {
     "number" : 2,
     "title" : "Among Serpents",
@@ -1224,14 +1231,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/211026686-among-serpents",
-    "rating" : 4.33,
-    "ratings" : 1089
+    "rating" : 4.31,
+    "ratings" : 1220
   } ]
 }, {
   "title" : "Shadow of the Leviathan Series",
   "author" : "Robert Jackson Bennett",
   "goodReadsUrl" : "https://www.goodreads.com/series/362899-shadow-of-the-leviathan",
-  "lastUpdate" : 1757270778.274502200,
+  "lastUpdate" : 1762937749.033505700,
   "books" : [ {
     "number" : 1,
     "title" : "The Tainted Cup",
@@ -1245,7 +1252,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/150247395-the-tainted-cup",
     "rating" : 4.3,
-    "ratings" : 57519
+    "ratings" : 66013
   }, {
     "number" : 2,
     "title" : "A Drop of Corruption",
@@ -1258,21 +1265,28 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
-    "rating" : 4.5,
-    "ratings" : 23212
+    "rating" : 4.49,
+    "ratings" : 28923
   }, {
     "number" : 3,
     "title" : "A Trade of Blood",
-    "publication" : null,
+    "publication" : {
+      "publicationDate" : null,
+      "expectedPublicationDate" : {
+        "year" : 2026,
+        "month" : 6,
+        "day" : 9
+      }
+    },
     "url" : "https://www.goodreads.com/book/show/102615935-a-trade-of-blood",
-    "rating" : 4.53,
-    "ratings" : 15
+    "rating" : 4.3,
+    "ratings" : 23
   } ]
 }, {
   "title" : "Children of Corruption Series",
   "author" : "Michael R. Fletcher",
   "goodReadsUrl" : "https://www.goodreads.com/series/391815-children-of-corruption",
-  "lastUpdate" : 1757270783.963678900,
+  "lastUpdate" : 1762937754.753057400,
   "books" : [ {
     "number" : 1,
     "title" : "The Storm Beneath the World",
@@ -1286,13 +1300,13 @@
     },
     "url" : "https://www.goodreads.com/book/show/203588014-the-storm-beneath-the-world",
     "rating" : 4.44,
-    "ratings" : 166
+    "ratings" : 171
   } ]
 }, {
   "title" : "Fever House Series",
   "author" : "Keith Rosson",
   "goodReadsUrl" : "https://www.goodreads.com/series/377558-fever-house",
-  "lastUpdate" : 1757270789.532271900,
+  "lastUpdate" : 1762937760.328425400,
   "books" : [ {
     "number" : 1,
     "title" : "Fever House",
@@ -1306,7 +1320,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/66087060-fever-house",
     "rating" : 4.03,
-    "ratings" : 6246
+    "ratings" : 6874
   }, {
     "number" : 2,
     "title" : "The Devil by Name",
@@ -1319,14 +1333,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/202102065-the-devil-by-name",
-    "rating" : 4.25,
-    "ratings" : 2299
+    "rating" : 4.24,
+    "ratings" : 2570
   } ]
 }, {
   "title" : "The Lamplight Murder Mysteries Series",
   "author" : "Morgan Stang",
   "goodReadsUrl" : "https://www.goodreads.com/series/373698-the-lamplight-murder-mysteries",
-  "lastUpdate" : 1757270797.962844400,
+  "lastUpdate" : 1762937767.742132500,
   "books" : [ {
     "number" : 1,
     "title" : "Murder at Spindle Manor",
@@ -1339,8 +1353,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/62993337-murder-at-spindle-manor",
-    "rating" : 4.04,
-    "ratings" : 2346
+    "rating" : 4.03,
+    "ratings" : 2542
   }, {
     "number" : 2,
     "title" : "Murder on the Lamplight Express",
@@ -1354,20 +1368,20 @@
     },
     "url" : "https://www.goodreads.com/book/show/186764264-murder-on-the-lamplight-express",
     "rating" : 4.27,
-    "ratings" : 1021
+    "ratings" : 1116
   }, {
     "number" : 3,
     "title" : "Murder on Hunter's Eve",
     "publication" : null,
     "url" : "https://www.goodreads.com/book/show/214441905-murder-on-hunter-s-eve",
-    "rating" : 4.4,
-    "ratings" : 629
+    "rating" : 4.39,
+    "ratings" : 692
   } ]
 }, {
   "title" : "The Captive's War Series",
   "author" : "James S.A. Corey",
   "goodReadsUrl" : "https://www.goodreads.com/series/337839-the-captive-s-war",
-  "lastUpdate" : 1757270804.702018400,
+  "lastUpdate" : 1762937775.041628000,
   "books" : [ {
     "number" : 1,
     "title" : "The Mercy of Gods",
@@ -1380,8 +1394,8 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/201930181-the-mercy-of-gods",
-    "rating" : 4.17,
-    "ratings" : 31388
+    "rating" : 4.16,
+    "ratings" : 33514
   }, {
     "number" : 2,
     "title" : "The Faith of Beasts",
@@ -1394,14 +1408,14 @@
       }
     },
     "url" : "https://www.goodreads.com/book/show/236849296-the-faith-of-beasts",
-    "rating" : 4.6,
-    "ratings" : 5
+    "rating" : 4.11,
+    "ratings" : 9
   } ]
 }, {
   "title" : "Amina al-Sirafi Series",
   "author" : "Shannon Chakraborty",
   "goodReadsUrl" : "https://www.goodreads.com/series/289717-amina-al-sirafi",
-  "lastUpdate" : 1757270813.174643600,
+  "lastUpdate" : 1762937784.071178400,
   "books" : [ {
     "number" : 1,
     "title" : "The Adventures of Amina al-Sirafi",
@@ -1415,21 +1429,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/61294937-the-adventures-of-amina-al-sirafi",
     "rating" : 4.25,
-    "ratings" : 74366
-  }, {
-    "number" : 2,
-    "title" : "Untitled",
-    "publication" : {
-      "publicationDate" : null,
-      "expectedPublicationDate" : {
-        "year" : 2026,
-        "month" : 4,
-        "day" : 23
-      }
-    },
-    "url" : "https://www.goodreads.com/book/show/44155063-untitled",
-    "rating" : 4.57,
-    "ratings" : 28
+    "ratings" : 76634
   }, {
     "number" : 3,
     "title" : "Untitled",
@@ -1437,12 +1437,26 @@
     "url" : "https://www.goodreads.com/book/show/44155077-untitled",
     "rating" : 4.36,
     "ratings" : 14
+  }, {
+    "number" : 2,
+    "title" : "The Tapestry of Fate",
+    "publication" : {
+      "publicationDate" : null,
+      "expectedPublicationDate" : {
+        "year" : 2026,
+        "month" : 5,
+        "day" : 19
+      }
+    },
+    "url" : "https://www.goodreads.com/book/show/44155063-the-tapestry-of-fate",
+    "rating" : 4.6,
+    "ratings" : 30
   } ]
 }, {
   "title" : "Dark Lord Davi Series",
   "author" : "Django Wexler",
   "goodReadsUrl" : "https://www.goodreads.com/series/386353-dark-lord-davi",
-  "lastUpdate" : 1757270818.923138900,
+  "lastUpdate" : 1762937789.874517600,
   "books" : [ {
     "number" : 1,
     "title" : "How to Become the Dark Lord and Die Trying",
@@ -1456,7 +1470,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/198493860-how-to-become-the-dark-lord-and-die-trying",
     "rating" : 3.77,
-    "ratings" : 13930
+    "ratings" : 15450
   }, {
     "number" : 2,
     "title" : "Everybody Wants to Rule the World Except Me",
@@ -1469,14 +1483,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/217560607-everybody-wants-to-rule-the-world-except-me",
-    "rating" : 4.09,
-    "ratings" : 2906
+    "rating" : 4.07,
+    "ratings" : 3938
   } ]
 }, {
   "title" : "Forever Desert Series",
   "author" : "Moses Ose Utomi",
   "goodReadsUrl" : "https://www.goodreads.com/series/354446-forever-desert",
-  "lastUpdate" : 1757270826.622917100,
+  "lastUpdate" : 1762937795.468600000,
   "books" : [ {
     "number" : 1,
     "title" : "The Lies of the Ajungo",
@@ -1490,7 +1504,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/60784306-the-lies-of-the-ajungo",
     "rating" : 4.21,
-    "ratings" : 4172
+    "ratings" : 4423
   }, {
     "number" : 2,
     "title" : "The Truth of the Aleke",
@@ -1504,7 +1518,7 @@
     },
     "url" : "https://www.goodreads.com/book/show/139397033-the-truth-of-the-aleke",
     "rating" : 4.13,
-    "ratings" : 1253
+    "ratings" : 1362
   }, {
     "number" : 3,
     "title" : "The Memory of the Ogisi",
@@ -1517,14 +1531,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/217387790-the-memory-of-the-ogisi",
-    "rating" : 4.14,
-    "ratings" : 280
+    "rating" : 4.09,
+    "ratings" : 427
   } ]
 }, {
   "title" : "Threads of Power Series",
   "author" : "Victoria E. Schwab",
   "goodReadsUrl" : "https://www.goodreads.com/series/213849-threads-of-power",
-  "lastUpdate" : 1757270835.552891100,
+  "lastUpdate" : 1762937804.397033900,
   "books" : [ {
     "number" : 1,
     "title" : "The Fragile Threads of Power",
@@ -1537,28 +1551,28 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/111673828-the-fragile-threads-of-power",
-    "rating" : 4.27,
-    "ratings" : 43678
+    "rating" : 4.26,
+    "ratings" : 44890
   }, {
     "number" : 2,
     "title" : "Untitled",
     "publication" : null,
     "url" : "https://www.goodreads.com/book/show/36141137-untitled",
-    "rating" : 4.18,
-    "ratings" : 38
+    "rating" : 4.15,
+    "ratings" : 39
   }, {
     "number" : 3,
     "title" : "Untitled",
     "publication" : null,
     "url" : "https://www.goodreads.com/book/show/36141142-untitled",
-    "rating" : 4.55,
-    "ratings" : 20
+    "rating" : 4.5,
+    "ratings" : 22
   } ]
 }, {
   "title" : "Eternal Path Trilogy",
   "author" : "Antonia Hodgson",
   "goodReadsUrl" : "https://www.goodreads.com/series/394271-eternal-path-trilogy",
-  "lastUpdate" : 1757270842.522490200,
+  "lastUpdate" : 1762937812.002357800,
   "books" : [ {
     "number" : 1,
     "title" : "The Raven Scholar",
@@ -1571,14 +1585,14 @@
       "expectedPublicationDate" : null
     },
     "url" : "https://www.goodreads.com/book/show/212174157-the-raven-scholar",
-    "rating" : 4.48,
-    "ratings" : 11653
+    "rating" : 4.46,
+    "ratings" : 18871
   }, {
     "number" : 2,
     "title" : "The Fox in Winter",
     "publication" : null,
     "url" : "https://www.goodreads.com/book/show/239958161-the-fox-in-winter",
-    "rating" : 5.0,
-    "ratings" : 1
+    "rating" : 4.67,
+    "ratings" : 9
   } ]
 } ]
