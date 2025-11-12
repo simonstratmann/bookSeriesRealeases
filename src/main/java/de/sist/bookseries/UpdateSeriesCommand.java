@@ -66,6 +66,8 @@ public class UpdateSeriesCommand implements Callable<Integer> {
     private static void update(List<BookSeries> bookSeriesList) {
         ChromeOptions options = new ChromeOptions();
         options.setBinary("c:\\temp\\GoogleChromePortableDev\\App\\Chrome-bin\\chrome.exe");
+//        options.addArguments("--headless");
+
         WebDriver driver = new ChromeDriver(options);
         try {
             for (BookSeries series : bookSeriesList) {
