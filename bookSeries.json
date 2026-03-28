@@ -90,14 +90,6 @@
   }, {
     "number" : 7,
     "title" : "Red God",
-    "publication" : {
-      "publicationDate" : {
-        "year" : 2025,
-        "month" : 1,
-        "day" : 1
-      },
-      "expectedPublicationDate" : null
-    },
     "url" : "https://www.goodreads.com/book/show/61657799-red-god",
     "rating" : 4.52,
     "ratings" : 391
