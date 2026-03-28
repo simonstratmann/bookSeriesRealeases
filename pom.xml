@@ -103,6 +103,32 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <from>
+                        <image>eclipse-temurin:17-jre</image>
+                    </from>
+                    <to>
+                        <image>ghcr.io/simonstratmann/bookseriesrealeases</image>
+                        <tags>
+                            <tag>latest</tag>
+                        </tags>
+                    </to>
+                    <container>
+                        <mainClass>de.sist.bookseries.WebApplication</mainClass>
+                        <ports>
+                            <port>8080</port>
+                        </ports>
+                        <workingDirectory>/data</workingDirectory>
+                        <environment>
+                            <BOOK_SERIES_FILE>/data/bookSeries.json</BOOK_SERIES_FILE>
+                        </environment>
+                    </container>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <!--    Run in VS x64 dev command. Set JAVA_HOME to graalvm. Run mvn -Pnative package-->

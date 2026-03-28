@@ -11,7 +11,9 @@ import java.util.List;
 public class Jackson {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
-    private static final File BOOK_SERIES_JSON_FILE = new File("bookSeries.json");
+    private static final File BOOK_SERIES_JSON_FILE = new File(
+            System.getenv("BOOK_SERIES_FILE") != null ? System.getenv("BOOK_SERIES_FILE") : "bookSeries.json"
+    );
 
     static  {
         OBJECT_MAPPER.registerModule(new JavaTimeModule());
