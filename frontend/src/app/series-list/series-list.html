@@ -1,0 +1,106 @@
+<div class="series-page">
+  <div class="page-header">
+    <h1>Series</h1>
+    <span class="count">{{ series().length }} tracked</span>
+  </div>
+
+  <div class="add-form">
+    <h2>Add Series</h2>
+    <div class="add-row">
+      <input
+        type="url"
+        placeholder="https://www.goodreads.com/series/..."
+        [(ngModel)]="newUrl"
+        (keyup.enter)="add()"
+        class="url-input"
+      />
+      <button class="btn-primary" (click)="add()" [disabled]="adding() || !newUrl.trim()">
+        @if (adding()) {
+          <span class="spinner"></span> Adding…
+        } @else {
+          Add Series
+        }
+      </button>
+    </div>
+    @if (message()) {
+      <p class="message" [class.error]="messageType() === 'error'">{{ message() }}</p>
+    }
+    <p class="hint">Paste the Goodreads series URL. Books will be fetched in the background using Chrome.</p>
+  </div>
+
+  @if (loading()) {
+    <div class="loading">Loading…</div>
+  } @else {
+    <div class="table-wrap">
+      <table class="series-table">
+        <thead>
+          <tr>
+            <th class="th-expand"></th>
+            <th class="sortable" (click)="sort('title')">Series <span class="sort-icon">{{ sortIcon('title') }}</span></th>
+            <th class="sortable" (click)="sort('author')">Author <span class="sort-icon">{{ sortIcon('author') }}</span></th>
+            <th>Books</th>
+            <th class="sortable" (click)="sort('lastRelease')">Last Release <span class="sort-icon">{{ sortIcon('lastRelease') }}</span></th>
+            <th class="sortable" (click)="sort('nextRelease')">Next Release <span class="sort-icon">{{ sortIcon('nextRelease') }}</span></th>
+            <th class="sortable" (click)="sort('updated')">Updated <span class="sort-icon">{{ sortIcon('updated') }}</span></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (s of sortedSeries(); track trackBySeries($index, s); let i = $index) {
+            <tr class="series-row" [class.expanded]="isExpanded(s.goodReadsUrl)" (click)="toggleExpand(s.goodReadsUrl)">
+              <td class="td-expand">
+                <span class="chevron" [class.open]="isExpanded(s.goodReadsUrl)">›</span>
+              </td>
+              <td>
+                <a [href]="s.goodReadsUrl" target="_blank" class="series-link" (click)="$event.stopPropagation()">{{ s.title }}</a>
+              </td>
+              <td class="author">{{ s.author }}</td>
+              <td class="books-count">{{ releasedCount(s) }}/{{ s.books.length }}</td>
+              <td class="release-date">{{ lastRelease(s) }}</td>
+              <td class="release-date next">{{ nextRelease(s) }}</td>
+              <td class="last-update">{{ formatDate(s.lastUpdate) }}</td>
+              <td class="actions">
+                <button class="btn-delete" (click)="delete(i, s.title, $event)" title="Remove series">✕</button>
+              </td>
+            </tr>
+            @if (isExpanded(s.goodReadsUrl)) {
+              <tr class="books-row">
+                <td colspan="8">
+                  <div class="books-panel">
+                    <table class="books-table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Title</th>
+                          <th>Publication</th>
+                          <th>Rating</th>
+                          <th>Ratings</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @for (book of s.books; track book.url) {
+                          <tr [class.expected]="isExpected(book)">
+                            <td class="book-num">{{ book.number }}</td>
+                            <td>
+                              <a [href]="book.url" target="_blank" class="book-link">{{ book.title }}</a>
+                            </td>
+                            <td class="book-date" [class.expected-date]="isExpected(book)">{{ bookDate(book) }}</td>
+                            <td class="book-rating">
+                              @if (book.rating > 0) { ★ {{ book.rating.toFixed(2) }} }
+                              @else { — }
+                            </td>
+                            <td class="book-ratings">{{ book.ratings > 0 ? book.ratings.toLocaleString() : '—' }}</td>
+                          </tr>
+                        }
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            }
+          }
+        </tbody>
+      </table>
+    </div>
+  }
+</div>

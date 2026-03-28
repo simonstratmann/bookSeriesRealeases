@@ -55,6 +55,10 @@ public class AddSeriesCommand implements Callable<Integer> {
     }
 
 
+    public static List<BookSeries> createInitialBookSeriesListFromUrl(String seriesUrl) throws Exception {
+        return createInitialBookSeriesListFromListOfUrls(seriesUrl);
+    }
+
     private static List<BookSeries> createInitialBookSeriesListFromListOfUrls(String... seriesUrl) {
         final List<BookSeries> bookSeriesList = new ArrayList<>();
         for (String url : seriesUrl) {

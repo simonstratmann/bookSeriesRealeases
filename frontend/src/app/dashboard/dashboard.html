@@ -1,0 +1,83 @@
+<div class="dashboard">
+  <div class="page-header">
+    <h1>Dashboard</h1>
+    <div class="controls">
+      <label>Last <input type="number" [value]="lastDays()" (change)="lastDays.set(+$any($event.target).value); load()" min="1" max="365" /> days</label>
+      <label>Next <input type="number" [value]="nextDays()" (change)="nextDays.set(+$any($event.target).value); load()" min="1" max="365" /> days</label>
+    </div>
+  </div>
+
+  @if (loading()) {
+    <div class="loading">Loading…</div>
+  } @else if (error()) {
+    <div class="error-box">⚠️ {{ error() }}</div>
+  } @else if (data()) {
+    <div class="sections">
+      <section>
+        <h2 class="section-title published">
+          Recently Published
+          <span class="badge">{{ data()!.recentlyPublished.length }}</span>
+        </h2>
+        @if (data()!.recentlyPublished.length === 0) {
+          <p class="empty">No books published in the last {{ lastDays() }} days.</p>
+        } @else {
+          <div class="book-list">
+            @for (book of data()!.recentlyPublished; track trackByTitle($index, book)) {
+              <div class="book-card">
+                <div class="book-main">
+                  <a class="book-title" [href]="book.bookUrl" target="_blank">{{ book.title }}</a>
+                  <span class="book-number">Book {{ book.bookNumber }}{{ book.totalBooks ? ' of ' + book.totalBooks : '' }}</span>
+                </div>
+                <div class="book-meta">
+                  <a class="series-link" [href]="book.seriesUrl" target="_blank">{{ book.seriesTitle }}</a>
+                  <span class="author">{{ book.seriesAuthor }}</span>
+                </div>
+                <div class="book-footer">
+                  <span class="pub-date published-date">Published {{ formatDate(book.publicationDate) }}</span>
+                  <span class="rating">
+                    ★ {{ book.rating.toFixed(2) }}
+                    <span class="ratings-count">({{ book.ratings.toLocaleString() }})</span>
+                  </span>
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </section>
+
+      <section>
+        <h2 class="section-title upcoming">
+          Upcoming
+          <span class="badge">{{ data()!.upcoming.length }}</span>
+        </h2>
+        @if (data()!.upcoming.length === 0) {
+          <p class="empty">No books expected in the next {{ nextDays() }} days.</p>
+        } @else {
+          <div class="book-list">
+            @for (book of data()!.upcoming; track trackByTitle($index, book)) {
+              <div class="book-card upcoming-card">
+                <div class="book-main">
+                  <a class="book-title" [href]="book.bookUrl" target="_blank">{{ book.title }}</a>
+                  <span class="book-number">Book {{ book.bookNumber }}{{ book.totalBooks ? ' of ' + book.totalBooks : '' }}</span>
+                </div>
+                <div class="book-meta">
+                  <a class="series-link" [href]="book.seriesUrl" target="_blank">{{ book.seriesTitle }}</a>
+                  <span class="author">{{ book.seriesAuthor }}</span>
+                </div>
+                <div class="book-footer">
+                  <span class="pub-date expected-date">Expected {{ formatDate(book.expectedPublicationDate) }}</span>
+                  @if (book.rating > 0) {
+                    <span class="rating">
+                      ★ {{ book.rating.toFixed(2) }}
+                      <span class="ratings-count">({{ book.ratings.toLocaleString() }})</span>
+                    </span>
+                  }
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </section>
+    </div>
+  }
+</div>

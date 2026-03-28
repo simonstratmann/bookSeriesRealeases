@@ -1,0 +1,23 @@
+<header class="app-header">
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">📚</span>
+      <span class="logo-text">BookSeries</span>
+    </div>
+    <nav class="nav">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Dashboard</a>
+      <a routerLink="/series" routerLinkActive="active">Series</a>
+    </nav>
+    <button class="update-btn" (click)="triggerUpdate()" [disabled]="updating()">
+      @if (updating()) {
+        <span class="spinner"></span> Updating…
+      } @else {
+        Update All
+      }
+    </button>
+  </div>
+</header>
+
+<main>
+  <router-outlet />
+</main>

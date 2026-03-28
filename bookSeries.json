@@ -1002,54 +1002,6 @@
     "ratings" : 684
   } ]
 }, {
-  "title" : "Empire of the Wolf Series",
-  "author" : "Richard Swan",
-  "goodReadsUrl" : "https://www.goodreads.com/series/324773-empire-of-the-wolf",
-  "lastUpdate" : 1774686468.424710900,
-  "books" : [ {
-    "number" : 1,
-    "title" : "The Justice of Kings",
-    "publication" : {
-      "publicationDate" : {
-        "year" : 2022,
-        "month" : 2,
-        "day" : 22
-      },
-      "expectedPublicationDate" : null
-    },
-    "url" : "https://www.goodreads.com/book/show/58293284-the-justice-of-kings",
-    "rating" : 4.0,
-    "ratings" : 16528
-  }, {
-    "number" : 2,
-    "title" : "The Tyranny of Faith",
-    "publication" : {
-      "publicationDate" : {
-        "year" : 2023,
-        "month" : 2,
-        "day" : 14
-      },
-      "expectedPublicationDate" : null
-    },
-    "url" : "https://www.goodreads.com/book/show/60028919-the-tyranny-of-faith",
-    "rating" : 4.26,
-    "ratings" : 8181
-  }, {
-    "number" : 3,
-    "title" : "The Trials of Empire",
-    "publication" : {
-      "publicationDate" : {
-        "year" : 2024,
-        "month" : 2,
-        "day" : 6
-      },
-      "expectedPublicationDate" : null
-    },
-    "url" : "https://www.goodreads.com/book/show/60028924-the-trials-of-empire",
-    "rating" : 4.11,
-    "ratings" : 5785
-  } ]
-}, {
   "title" : "The Last Horizon Series",
   "author" : "Will Wight",
   "goodReadsUrl" : "https://www.goodreads.com/series/364813-the-last-horizon",
